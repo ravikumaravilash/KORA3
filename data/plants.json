@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Ashwagandha",
+    "botanical": "Withania somnifera",
+    "category": "Herbs",
+    "image": "../images/plants/ashwagandha.jpg",
+    "uses": "Improves immunity, reduces stress and supports energy.",
+    "page": "plant-details.html?id=1"
+  },
+  {
+    "id": 2,
+    "name": "Neem",
+    "botanical": "Azadirachta indica",
+    "category": "Trees",
+    "image": "../images/plants/neem.jpg",
+    "uses": "Supports skin health and has antibacterial properties.",
+    "page": "plant-details.html?id=2"
+  },
+  {
+    "id": 3,
+    "name": "Tulsi",
+    "botanical": "Ocimum tenuiflorum",
+    "category": "Herbs",
+    "image": "../images/plants/tulsi.jpg",
+    "uses": "Strengthens immunity and supports respiratory health.",
+    "page": "plant-details.html?id=3"
+  },
+  {
+    "id": 4,
+    "name": "Aloe Vera",
+    "botanical": "Aloe barbadensis Miller",
+    "category": "Shrubs",
+    "image": "../images/plants/aloe-vera.jpg",
+    "uses": "Known for wound healing and skin hydration.",
+    "page": "plant-details.html?id=4"
+  },
+  {
+    "id": 5,
+    "name": "Turmeric",
+    "botanical": "Curcuma longa",
+    "category": "Herbs",
+    "image": "../images/plants/turmeric.jpg",
+    "uses": "Powerful anti-inflammatory and antioxidant herb.",
+    "page": "plant-details.html?id=5"
+  },
+  {
+    "id": 6,
+    "name": "Brahmi",
+    "botanical": "Bacopa monnieri",
+    "category": "Herbs",
+    "image": "../images/plants/brahmi.jpg",
+    "uses": "Improves memory, concentration and cognitive health.",
+    "page": "plant-details.html?id=6"
+  }
+]
