@@ -11,8 +11,6 @@ content="width=device-width, initial-scale=1.0">
 
 <title>KORA | Home</title>
 
-<!-- Google Font -->
-
 <link rel="preconnect"
 href="https://fonts.googleapis.com">
 
@@ -22,8 +20,6 @@ crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
 rel="stylesheet">
-
-<!-- CSS -->
 
 <link rel="stylesheet" href="css/variables.css">
 
@@ -39,15 +35,13 @@ rel="stylesheet">
 
 <body>
 
-<!--==================================================
+<!--==================================
 NAVBAR
-===================================================-->
+===================================-->
 
 <nav class="navbar">
 
 <div class="nav-container">
-
-<!-- Logo -->
 
 <a href="home.html" class="logo">
 
@@ -69,8 +63,6 @@ Knowledge • Outreach • Rehabilitation • Ayurveda
 
 </a>
 
-<!-- Navigation -->
-
 <ul class="nav-links">
 
 <li><a href="home.html" class="active">Home</a></li>
@@ -89,27 +81,17 @@ Knowledge • Outreach • Rehabilitation • Ayurveda
 
 </ul>
 
-<!-- Right -->
-
-<div class="nav-right">
+<div class="nav-buttons">
 
 <a href="login.html"
 
-class="login-btn">
+id="loginButton"
+
+class="btn btn-outline">
 
 Login
 
 </a>
-
-<div class="hamburger">
-
-<span></span>
-
-<span></span>
-
-<span></span>
-
-</div>
 
 </div>
 
@@ -117,9 +99,9 @@ Login
 
 </nav>
 
-<!--==================================================
+<!--==================================
 HERO
-===================================================-->
+===================================-->
 
 <section class="hero">
 
@@ -127,39 +109,41 @@ HERO
 
 <div class="hero-content">
 
-<div class="badge">
+<p class="hero-tag">
 
-India's Modern Ayurveda Platform
+🌿 Ancient Wisdom • Modern Intelligence
 
-</div>
+</p>
 
 <h1>
 
-Preserving
+Where
 
-<span class="gold">
+<span>
 
-Ancient Wisdom
+Ancient Healing
 
 </span>
 
-with
+Meets
 
-Modern Technology
+<span>
+
+Intelligent Technology
+
+</span>
 
 </h1>
 
 <p>
 
-Discover Ayurvedic medicine, medicinal plants,
+KORA combines centuries of Ayurvedic knowledge with modern AI,
 
-AI-powered rehabilitation,
+robotics,
 
-traditional therapies,
+rehabilitation,
 
-and a vibrant wellness community—
-
-all in one intelligent ecosystem.
+and medicinal plant research to create the next generation healthcare platform.
 
 </p>
 
@@ -173,28 +157,26 @@ Explore Ayurveda
 
 </a>
 
-<a href="pages/plants.html"
+<a href="login.html"
 
 class="btn btn-secondary">
 
-Medicinal Plants
+Open Dashboard
 
 </a>
 
 </div>
 
 </div>
-<!--==================================================
-HERO RIGHT
-===================================================-->
+<!--==================================
+HERO DASHBOARD PREVIEW
+===================================-->
 
 <div class="hero-visual">
 
-<div class="glass-card dashboard-card">
+<div class="dashboard-preview">
 
-<div class="card-header">
-
-<div>
+<div class="dashboard-top">
 
 <h3>
 
@@ -202,95 +184,109 @@ KORA AI Dashboard
 
 </h3>
 
-<p>
+<span class="online-status">
 
-Live Platform Overview
+● Online
 
-</p>
-
-</div>
-
-<div class="status-dot"></div>
+</span>
 
 </div>
 
 <div class="dashboard-stats">
 
-<div class="stat-item">
+<div class="mini-card">
 
-<h2>
+<h4>
 
-250+
+Health Score
+
+</h4>
+
+<h2 data-target="94">
+
+0
 
 </h2>
 
-<p>
+<span>%</span>
+
+</div>
+
+<div class="mini-card">
+
+<h4>
 
 Medicinal Plants
 
-</p>
+</h4>
 
-</div>
+<h2 data-target="250">
 
-<div class="stat-item">
-
-<h2>
-
-500+
+0
 
 </h2>
 
-<p>
-
-Ayurvedic Remedies
-
-</p>
+<span>+</span>
 
 </div>
 
-<div class="stat-item">
+<div class="mini-card">
 
-<h2>
+<h4>
 
-120+
+Remedies
+
+</h4>
+
+<h2 data-target="500">
+
+0
 
 </h2>
 
-<p>
-
-Therapies
-
-</p>
+<span>+</span>
 
 </div>
 
-<div class="stat-item">
+<div class="mini-card">
 
-<h2>
+<h4>
 
-98%
+Community
+
+</h4>
+
+<h2 data-target="1200">
+
+0
 
 </h2>
 
-<p>
-
-Recovery Success
-
-</p>
+<span>+</span>
 
 </div>
 
 </div>
 
-<div class="progress-section">
+<div class="therapy-card">
 
-<div class="progress-title">
+<div class="therapy-header">
 
-<span>AI Therapy Analysis</span>
+<h4>
 
-<span>96%</span>
+Today's Therapy
+
+</h4>
+
+<div class="therapy-status">
+
+Active
 
 </div>
+
+</div>
+
+<div class="therapy-progress">
 
 <div class="progress-bar">
 
@@ -298,63 +294,47 @@ Recovery Success
 
 </div>
 
-</div>
-
-</div>
-
-<!-- Floating Card -->
-
-<div class="floating-card floating-one">
-
-<h4>
-
-🌿 Featured Plant
-
-</h4>
-
-<h3>
-
-Ashwagandha
-
-</h3>
-
 <p>
 
-Known for stress reduction,
+Recovery Progress
 
-energy enhancement,
+<strong>
 
-and immune support.
+92%
+
+</strong>
 
 </p>
 
 </div>
 
-<!-- Floating Card -->
+</div>
 
-<div class="floating-card floating-two">
+<div class="ai-card">
+
+<div class="ai-icon">
+
+🤖
+
+</div>
+
+<div>
 
 <h4>
 
-🤖 AI Therapy
+AI Assistant
 
 </h4>
 
-<h3>
-
-Smart Knee Rehabilitation
-
-</h3>
-
 <p>
 
-ESP32 powered
-
-AI assisted
-
-personalized therapy.
+Monitoring therapy in real time
 
 </p>
+
+</div>
+
+</div>
 
 </div>
 
@@ -364,9 +344,9 @@ personalized therapy.
 
 </section>
 
-<!--==================================================
+<!--==================================
 FEATURES
-===================================================-->
+===================================-->
 
 <section class="features">
 
@@ -374,67 +354,25 @@ FEATURES
 
 <div class="section-title">
 
-<span>
-
-Our Platform
-
-</span>
-
 <h2>
 
-Everything You Need
-
-for Ayurvedic Wellness
+Everything You Need In One Platform
 
 </h2>
 
 <p>
 
-KORA combines education,
-
-traditional medicine,
-
-AI technology,
-
-and rehabilitation
-
-into one seamless experience.
+KORA combines traditional Ayurvedic wisdom with intelligent technology to deliver a complete wellness ecosystem.
 
 </p>
 
 </div>
 
-<div class="grid grid-3">
+<div class="features-grid">
 
-<div class="card">
+<div class="feature-card">
 
-<div class="icon-circle">
-
-📚
-
-</div>
-
-<h3>
-
-Ayurveda Encyclopedia
-
-</h3>
-
-<p>
-
-Learn everything from
-
-the origin of Ayurveda
-
-to modern scientific applications.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<div class="icon-circle">
+<div class="feature-icon">
 
 🌿
 
@@ -448,21 +386,37 @@ Medicinal Plants
 
 <p>
 
-Discover hundreds of medicinal
-
-plants with botanical details,
-
-benefits,
-
-and preparation methods.
+Discover hundreds of medicinal herbs with botanical information, preparation methods, medicinal uses and scientific research.
 
 </p>
 
 </div>
 
-<div class="card">
+<div class="feature-card">
 
-<div class="icon-circle">
+<div class="feature-icon">
+
+📚
+
+</div>
+
+<h3>
+
+Ayurveda Encyclopedia
+
+</h3>
+
+<p>
+
+Learn the complete history, philosophy and evolution of Ayurveda from ancient India to modern healthcare.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="feature-icon">
 
 🤖
 
@@ -476,11 +430,29 @@ AI Therapy
 
 <p>
 
-Monitor your smart
+Monitor rehabilitation using smart devices, intelligent analytics and personalized recovery tracking.
 
-Ayurvedic Knee Massager
+</p>
 
-through an intelligent dashboard.
+</div>
+
+<div class="feature-card">
+
+<div class="feature-icon">
+
+👥
+
+</div>
+
+<h3>
+
+Community
+
+</h3>
+
+<p>
+
+Connect with experts, practitioners and wellness enthusiasts from around the world.
 
 </p>
 
@@ -491,3 +463,618 @@ through an intelligent dashboard.
 </div>
 
 </section>
+<!--==================================
+STATISTICS
+===================================-->
+
+<section class="statistics">
+
+<div class="container">
+
+<div class="stats-grid">
+
+<div class="stat-card">
+
+<h2 data-target="250">0</h2>
+
+<span>+</span>
+
+<p>
+
+Medicinal Plants
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2 data-target="500">0</h2>
+
+<span>+</span>
+
+<p>
+
+Traditional Remedies
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2 data-target="1200">0</h2>
+
+<span>+</span>
+
+<p>
+
+Community Members
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2 data-target="98">0</h2>
+
+<span>%</span>
+
+<p>
+
+Therapy Success
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--==================================
+FEATURED MEDICINAL PLANTS
+===================================-->
+
+<section class="plants">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+
+Featured Medicinal Plants
+
+</h2>
+
+<p>
+
+Explore some of the most powerful herbs used in Ayurveda for centuries.
+
+</p>
+
+</div>
+
+<div class="plants-grid">
+
+<div class="plant-card">
+
+<img src="images/plants/ashwagandha.jpg"
+alt="Ashwagandha">
+
+<div class="plant-content">
+
+<h3>
+
+Ashwagandha
+
+</h3>
+
+<p class="botanical">
+
+Withania somnifera
+
+</p>
+
+<p>
+
+Known as the "King of Ayurvedic Herbs", Ashwagandha helps reduce stress, improve immunity, and boost energy.
+
+</p>
+
+<a href="pages/plants/ashwagandha.html"
+class="plant-btn">
+
+Learn More →
+
+</a>
+
+</div>
+
+</div>
+
+<div class="plant-card">
+
+<img src="images/plants/tulsi.jpg"
+alt="Tulsi">
+
+<div class="plant-content">
+
+<h3>
+
+Tulsi
+
+</h3>
+
+<p class="botanical">
+
+Ocimum tenuiflorum
+
+</p>
+
+<p>
+
+Holy Basil strengthens immunity, supports respiratory health, and is one of Ayurveda's most sacred herbs.
+
+</p>
+
+<a href="pages/plants/tulsi.html"
+class="plant-btn">
+
+Learn More →
+
+</a>
+
+</div>
+
+</div>
+
+<div class="plant-card">
+
+<img src="images/plants/neem.jpg"
+alt="Neem">
+
+<div class="plant-content">
+
+<h3>
+
+Neem
+
+</h3>
+
+<p class="botanical">
+
+Azadirachta indica
+
+</p>
+
+<p>
+
+Neem is renowned for its antibacterial, antifungal, and blood-purifying properties.
+
+</p>
+
+<a href="pages/plants/neem.html"
+class="plant-btn">
+
+Learn More →
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!--==================================
+TESTIMONIALS
+===================================-->
+
+<section class="testimonials">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+
+What Our Community Says
+
+</h2>
+
+<p>
+
+Thousands of users trust KORA to learn, heal and preserve Ayurvedic wisdom.
+
+</p>
+
+</div>
+
+<div class="testimonial-grid">
+
+<div class="testimonial-card">
+
+<div class="stars">
+
+★★★★★
+
+</div>
+
+<p>
+
+"KORA has completely changed how I learn about Ayurveda. The medicinal plant database is detailed and beautifully organized."
+
+</p>
+
+<div class="user">
+
+<div class="avatar">
+
+P
+
+</div>
+
+<div>
+
+<h4>
+
+Priya Sharma
+
+</h4>
+
+<span>
+
+Medical Student
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="testimonial-card">
+
+<div class="stars">
+
+★★★★★
+
+</div>
+
+<p>
+
+"The AI Therapy Dashboard helped me stay consistent with my rehabilitation. The interface feels very professional."
+
+</p>
+
+<div class="user">
+
+<div class="avatar">
+
+R
+
+</div>
+
+<div>
+
+<h4>
+
+Rahul Menon
+
+</h4>
+
+<span>
+
+Physiotherapy Patient
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="testimonial-card">
+
+<div class="stars">
+
+★★★★★
+
+</div>
+
+<p>
+
+"I love how KORA blends ancient Ayurvedic knowledge with modern technology. It feels like the future of wellness."
+
+</p>
+
+<div class="user">
+
+<div class="avatar">
+
+A
+
+</div>
+
+<div>
+
+<h4>
+
+Ananya Rao
+
+</h4>
+
+<span>
+
+Ayurveda Researcher
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--==================================
+CALL TO ACTION
+===================================-->
+
+<section class="cta">
+
+<div class="container">
+
+<div class="cta-box">
+
+<h2>
+
+Start Your Wellness Journey Today
+
+</h2>
+
+<p>
+
+Discover medicinal plants, intelligent rehabilitation, Ayurvedic education and AI-powered healthcare—all in one platform.
+
+</p>
+
+<div class="cta-buttons">
+
+<a href="login.html"
+
+class="btn btn-primary">
+
+Launch Dashboard
+
+</a>
+
+<a href="pages/ayurveda.html"
+
+class="btn btn-secondary">
+
+Learn Ayurveda
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--==================================
+NEWSLETTER
+===================================-->
+
+<section class="newsletter">
+
+<div class="container">
+
+<div class="newsletter-box">
+
+<h2>
+
+Stay Updated
+
+</h2>
+
+<p>
+
+Receive the latest Ayurvedic discoveries, medicinal plant research and KORA updates.
+
+</p>
+
+<form class="newsletter-form">
+
+<input
+
+type="email"
+
+placeholder="Enter your email"
+
+required>
+
+<button
+
+type="submit"
+
+class="btn btn-primary">
+
+Subscribe
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+<!--==================================
+FOOTER
+===================================-->
+
+<footer class="footer">
+
+<div class="container">
+
+<div class="footer-grid">
+
+<div class="footer-column">
+
+<h2 class="footer-logo">
+
+KORA
+
+</h2>
+
+<p>
+
+Preserving Ancient Wisdom.
+
+Empowering Modern Wellness.
+
+</p>
+
+<p>
+
+Knowledge • Outreach • Rehabilitation • Ayurveda
+
+</p>
+
+</div>
+
+<div class="footer-column">
+
+<h3>
+
+Platform
+
+</h3>
+
+<ul>
+
+<li><a href="pages/ayurveda.html">Ayurveda</a></li>
+
+<li><a href="pages/plants.html">Medicinal Plants</a></li>
+
+<li><a href="pages/remedies.html">Remedies</a></li>
+
+<li><a href="pages/therapy.html">Therapy</a></li>
+
+</ul>
+
+</div>
+
+<div class="footer-column">
+
+<h3>
+
+Resources
+
+</h3>
+
+<ul>
+
+<li><a href="#">Research</a></li>
+
+<li><a href="#">Articles</a></li>
+
+<li><a href="#">Community</a></li>
+
+<li><a href="#">FAQ</a></li>
+
+</ul>
+
+</div>
+
+<div class="footer-column">
+
+<h3>
+
+Company
+
+</h3>
+
+<ul>
+
+<li><a href="pages/about.html">About</a></li>
+
+<li><a href="#">Privacy Policy</a></li>
+
+<li><a href="#">Terms & Conditions</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+<hr class="footer-divider">
+
+<div class="footer-bottom">
+
+<p>
+
+© 2026 KORA.
+
+Designed with 💚 for the future of Healthcare.
+
+</p>
+
+</div>
+
+</div>
+
+</footer>
+
+<!--==================================
+SCRIPTS
+===================================-->
+
+<script src="js/navbar.js"></script>
+
+<script src="js/home.js"></script>
+
+<script src="js/counter.js"></script>
+
+<script src="js/login.js"></script>
+
+<script>
+
+const loginButton=document.getElementById("loginButton");
+
+if(localStorage.getItem("koraLoggedIn")==="true"){
+
+loginButton.innerHTML="Dashboard";
+
+loginButton.href="dashboard.html";
+
+}
+
+</script>
+
+</body>
+
+</html>
