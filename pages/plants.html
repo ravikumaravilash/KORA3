@@ -1,176 +1,164 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-<title>
+    <title>KORA | Medicinal Plants</title>
 
-KORA | Medicinal Plants
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
 
-</title>
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
 
-<link rel="preconnect"
-href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
 
-<link rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-rel="stylesheet">
-
-<link rel="stylesheet"
-href="../css/variables.css">
-
-<link rel="stylesheet"
-href="../css/global.css">
-
-<link rel="stylesheet"
-href="../css/navbar.css">
-
-<link rel="stylesheet"
-href="../css/footer.css">
-
-<link rel="stylesheet"
-href="../css/plants.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/plants.css">
 
 </head>
 
 <body>
 
-<!--==========================
+<!-- ==========================
 NAVBAR
-===========================-->
+=========================== -->
 
 <nav class="navbar">
 
-<div class="nav-container">
+    <div class="nav-container">
 
-<a href="../home.html"
+        <a href="../home.html" class="logo">
 
-class="logo">
+            <div class="logo-title">
 
-<div class="logo-text">
+                KORA
 
-<div class="logo-title">
+            </div>
 
-KORA
+            <div class="logo-subtitle">
 
-</div>
+                Knowledge • Outreach • Rehabilitation • Ayurveda
 
-<div class="logo-subtitle">
+            </div>
 
-Knowledge • Outreach • Rehabilitation • Ayurveda
+        </a>
 
-</div>
+        <ul class="nav-links">
 
-</div>
+            <li><a href="../home.html">Home</a></li>
 
-</a>
+            <li><a href="ayurveda.html">Ayurveda</a></li>
 
-<ul class="nav-links">
+            <li><a href="plants.html" class="active">Plants</a></li>
 
-<li><a href="../home.html">
+            <li><a href="remedies.html">Remedies</a></li>
 
-Home
+            <li><a href="therapy.html">Therapy</a></li>
 
-</a></li>
+            <li><a href="community.html">Community</a></li>
 
-<li><a href="ayurveda.html">
+            <li><a href="about.html">About</a></li>
 
-Ayurveda
+        </ul>
 
-</a></li>
+        <a href="../dashboard.html"
+           class="btn btn-outline">
 
-<li><a href="plants.html"
+            Dashboard
 
-class="active">
+        </a>
 
-Medicinal Plants
-
-</a></li>
-
-<li><a href="remedies.html">
-
-Remedies
-
-</a></li>
-
-<li><a href="therapy.html">
-
-Therapy
-
-</a></li>
-
-<li><a href="community.html">
-
-Community
-
-</a></li>
-
-<li><a href="about.html">
-
-About
-
-</a></li>
-
-</ul>
-
-<a href="../dashboard.html"
-
-class="btn btn-outline">
-
-Dashboard
-
-</a>
-
-</div>
+    </div>
 
 </nav>
 
-<!--==========================
+<!-- ==========================
 HERO
-===========================-->
+=========================== -->
 
-<section class="page-hero">
+<section class="plants-hero">
 
-<div class="container">
+    <div class="container">
 
-<p class="hero-tag">
+        <div class="hero-content">
 
-Ayurvedic Botanical Library
+            <span class="hero-tag">
 
-</p>
+                KORA Botanical Knowledge Base
 
-<h1>
+            </span>
 
-Medicinal Plants
+            <h1>
 
-</h1>
+                Explore India's Medicinal Plant Heritage
 
-<p>
+            </h1>
 
-Explore one of India's richest collections of medicinal herbs, shrubs and trees. Learn their botanical names, medicinal properties, traditional uses and scientific importance.
+            <p>
 
-</p>
+                Discover medicinal herbs, trees and shrubs used in Ayurveda for thousands of years.
+                Learn their botanical classification, medicinal importance, traditional applications,
+                scientific research and modern healthcare relevance.
 
-</div>
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#library"
+                   class="btn btn-primary">
+
+                    Explore Collection
+
+                </a>
+
+                <a href="ayurveda.html"
+                   class="btn btn-secondary">
+
+                    Learn Ayurveda
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
-<!--==========================
+<!-- ==========================
 SEARCH
-===========================-->
+=========================== -->
 
 <section class="search-section">
 
 <div class="container">
+
+<div class="search-header">
+
+<h2>
+
+Search Medicinal Plants
+
+</h2>
+
+<p>
+
+Search by common name, botanical name or category.
+
+</p>
+
+</div>
 
 <div class="search-box">
 
@@ -184,60 +172,592 @@ placeholder="Search medicinal plants...">
 
 </div>
 
-<div class="category-buttons">
+<div class="category-filter">
 
-<button class="category-btn active">
+<button class="category-btn active"
+
+data-category="All">
 
 All
 
 </button>
 
-<button class="category-btn">
+<button class="category-btn"
+
+data-category="Herbs">
 
 Herbs
 
 </button>
 
-<button class="category-btn">
+<button class="category-btn"
+
+data-category="Trees">
 
 Trees
 
 </button>
 
-<button class="category-btn">
+<button class="category-btn"
 
-Flowers
-
-</button>
-
-<button class="category-btn">
+data-category="Shrubs">
 
 Shrubs
 
 </button>
 
+<button class="category-btn"
+
+data-category="Flowers">
+
+Flowers
+
+</button>
+
 </div>
 
 </div>
 
 </section>
 
-<!--==========================
-PLANTS GRID
-===========================-->
+<!-- ==========================
+FEATURED PLANTS
+=========================== -->
 
-<section class="plants-section">
+<section class="featured-section">
 
 <div class="container">
 
-<div id="plantsGrid"
+<div class="section-heading">
 
-class="plants-grid">
+<h2>
 
-<!-- JavaScript Loads Cards -->
+Featured Medicinal Plants
+
+</h2>
+
+<p>
+
+Some of the most significant medicinal plants in Ayurveda.
+
+</p>
+
+</div>
+
+<div class="featured-grid">
+
+<article class="featured-card">
+
+<img
+
+src="../images/plants/ashwagandha.jpg"
+
+alt="Ashwagandha">
+
+<div class="featured-info">
+
+<h3>
+
+Ashwagandha
+
+</h3>
+
+<span>
+
+Withania somnifera
+
+</span>
+
+<p>
+
+Known as the King of Ayurvedic Herbs,
+Ashwagandha supports stress management,
+energy production and immune health.
+
+</p>
+
+<a href="plants-profile.html?id=1"
+
+class="btn btn-primary">
+
+View Details
+
+</a>
+
+</div>
+
+</article>
+
+<article class="featured-card">
+
+<img
+
+src="../images/plants/tulsi.jpg"
+
+alt="Tulsi">
+
+<div class="featured-info">
+
+<h3>
+
+Tulsi
+
+</h3>
+
+<span>
+
+Ocimum tenuiflorum
+
+</span>
+
+<p>
+
+Often referred to as the Queen of Herbs,
+Tulsi has been valued for centuries
+for its adaptogenic and respiratory benefits.
+
+</p>
+
+<a href="plants-profile.html?id=3"
+
+class="btn btn-primary">
+
+View Details
+
+</a>
+
+</div>
+
+</article>
+
+<article class="featured-card">
+
+<img
+
+src="../images/plants/neem.jpg"
+
+alt="Neem">
+
+<div class="featured-info">
+
+<h3>
+
+Neem
+
+</h3>
+
+<span>
+
+Azadirachta indica
+
+</span>
+
+<p>
+
+Renowned for its cleansing,
+antimicrobial and skin-supporting
+properties.
+
+</p>
+
+<a href="plants-profile.html?id=2"
+
+class="btn btn-primary">
+
+View Details
+
+</a>
+
+</div>
+
+</article>
 
 </div>
 
 </div>
 
 </section>
+
+<!-- ==========================
+PLANT LIBRARY
+=========================== -->
+
+<section
+
+id="library"
+
+class="plants-library">
+
+<div class="container">
+
+<div class="section-heading">
+
+<h2>
+
+Medicinal Plant Library
+
+</h2>
+
+<p>
+
+Browse the KORA medicinal plant database.
+
+</p>
+
+</div>
+
+<div
+
+id="plantsGrid"
+
+class="plants-grid">
+
+<!-- JavaScript Generates Cards -->
+
+</div>
+        <div class="load-more">
+
+            <button id="loadMoreBtn"
+                    class="btn btn-outline">
+
+                Load More Plants
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================
+WHY MEDICINAL PLANTS
+========================== -->
+
+<section class="importance-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <h2>
+
+                Why Medicinal Plants Matter
+
+            </h2>
+
+            <p>
+
+                Medicinal plants have supported human health for thousands of years and continue to inspire
+                modern medicine through scientific research and sustainable healthcare.
+
+            </p>
+
+        </div>
+
+        <div class="importance-grid">
+
+            <div class="importance-card">
+
+                <h3>
+
+                    Traditional Knowledge
+
+                </h3>
+
+                <p>
+
+                    Ayurvedic medicinal plants represent centuries of carefully documented knowledge,
+                    passed through generations and still relevant today.
+
+                </p>
+
+            </div>
+
+            <div class="importance-card">
+
+                <h3>
+
+                    Scientific Research
+
+                </h3>
+
+                <p>
+
+                    Many medicinal plants are actively researched for their bioactive compounds,
+                    therapeutic properties and pharmaceutical potential.
+
+                </p>
+
+            </div>
+
+            <div class="importance-card">
+
+                <h3>
+
+                    Sustainable Healthcare
+
+                </h3>
+
+                <p>
+
+                    Responsible cultivation and conservation of medicinal plants contribute to
+                    environmental sustainability and long-term healthcare.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================
+STATISTICS
+========================== -->
+
+<section class="stats-section">
+
+    <div class="container">
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+
+                <h2>
+
+                    250+
+
+                </h2>
+
+                <p>
+
+                    Medicinal Plants
+
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>
+
+                    500+
+
+                </h2>
+
+                <p>
+
+                    Traditional Uses
+
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>
+
+                    100+
+
+                </h2>
+
+                <p>
+
+                    Scientific References
+
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>
+
+                    8
+
+                </h2>
+
+                <p>
+
+                    Ayurvedic Branches
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================
+CALL TO ACTION
+========================== -->
+
+<section class="cta-section">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+            <h2>
+
+                Continue Exploring Ayurveda
+
+            </h2>
+
+            <p>
+
+                Learn how medicinal plants are transformed into traditional remedies,
+                therapies and holistic wellness practices.
+
+            </p>
+
+            <div class="cta-buttons">
+
+                <a href="remedies.html"
+                   class="btn btn-primary">
+
+                    Explore Remedies
+
+                </a>
+
+                <a href="therapy.html"
+                   class="btn btn-secondary">
+
+                    Therapy Guide
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================
+FOOTER
+========================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div class="footer-column">
+
+                <h2>
+
+                    KORA
+
+                </h2>
+
+                <p>
+
+                    Knowledge • Outreach • Rehabilitation • Ayurveda
+
+                </p>
+
+                <p>
+
+                    Preserving Ancient Wisdom.
+                    Empowering Modern Wellness.
+
+                </p>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>
+
+                    Explore
+
+                </h3>
+
+                <ul>
+
+                    <li><a href="ayurveda.html">Ayurveda</a></li>
+
+                    <li><a href="plants.html">Medicinal Plants</a></li>
+
+                    <li><a href="remedies.html">Remedies</a></li>
+
+                    <li><a href="therapy.html">Therapy</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>
+
+                    Company
+
+                </h3>
+
+                <ul>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="community.html">Community</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>
+
+                    Legal
+
+                </h3>
+
+                <ul>
+
+                    <li><a href="#">Privacy Policy</a></li>
+
+                    <li><a href="#">Terms of Service</a></li>
+
+                    <li><a href="#">Support</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © 2026 KORA. All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- ==========================
+SCRIPTS
+========================== -->
+
+<script src="../js/plants.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+
+KORA | Ayurvedic Remedies
+
+</title>
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="../css/global.css">
+
+<link rel="stylesheet"
+href="../css/navbar.css">
+
+<link rel="stylesheet"
+href="../css/footer.css">
+
+<link rel="stylesheet"
+href="../css/remedies.css">
+
+</head>
+
+<body>
+
+<!-- =========================================
+NAVBAR
+========================================= -->
+
+<nav class="navbar">
+
+<div class="nav-container">
+
+<a href="../home.html"
+
+class="logo">
+
+<div class="logo-title">
+
+KORA
+
+</div>
+
+<div class="logo-subtitle">
+
+Knowledge • Outreach • Rehabilitation • Ayurveda
+
+</div>
+
+</a>
+
+<ul class="nav-links">
+
+<li><a href="../home.html">
+
+Home
+
+</a></li>
+
+<li><a href="ayurveda.html">
+
+Ayurveda
+
+</a></li>
+
+<li><a href="plants.html">
+
+Plants
+
+</a></li>
+
+<li><a href="remedies.html"
+
+class="active">
+
+Remedies
+
+</a></li>
+
+<li><a href="therapy.html">
+
+Therapy
+
+</a></li>
+
+<li><a href="community.html">
+
+Community
+
+</a></li>
+
+<li><a href="about.html">
+
+About
+
+</a></li>
+
+</ul>
+
+<a href="../dashboard.html"
+
+class="btn btn-outline">
+
+Dashboard
+
+</a>
+
+</div>
+
+</nav>
+
+<!-- =========================================
+HERO
+========================================= -->
+
+<section class="remedies-hero">
+
+<div class="container">
+
+<div class="hero-content">
+
+<span class="hero-tag">
+
+KORA Ayurvedic Remedy Library
+
+</span>
+
+<h1>
+
+Traditional Remedies Backed by Ancient Wisdom
+
+</h1>
+
+<p>
+
+Explore hundreds of Ayurvedic remedies prepared from medicinal plants,
+understand their traditional uses,
+scientific relevance,
+preparation methods,
+and safe application.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#library"
+
+class="btn btn-primary">
+
+Explore Remedies
+
+</a>
+
+<a href="plants.html"
+
+class="btn btn-secondary">
+
+Medicinal Plants
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================================
+SEARCH
+========================================= -->
+
+<section class="search-section">
+
+<div class="container">
+
+<div class="section-heading">
+
+<h2>
+
+Search Ayurvedic Remedies
+
+</h2>
+
+<p>
+
+Find remedies by name,
+health condition
+or category.
+
+</p>
+
+</div>
+
+<div class="search-wrapper">
+
+<input
+
+type="text"
+
+id="remedySearch"
+
+placeholder="Search Ayurvedic remedies...">
+
+</div>
+
+<div class="category-filter">
+
+<button
+
+class="category-btn active"
+
+data-category="All">
+
+All
+
+</button>
+
+<button
+
+class="category-btn"
+
+data-category="Digestive">
+
+Digestive
+
+</button>
+
+<button
+
+class="category-btn"
+
+data-category="Immunity">
+
+Immunity
+
+</button>
+
+<button
+
+class="category-btn"
+
+data-category="Respiratory">
+
+Respiratory
+
+</button>
+
+<button
+
+class="category-btn"
+
+data-category="Skin">
+
+Skin
+
+</button>
+
+<button
+
+class="category-btn"
+
+data-category="Stress">
+
+Stress
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================================
+FEATURED REMEDIES
+========================================= -->
+
+<section class="featured-section">
+
+<div class="container">
+
+<div class="section-heading">
+
+<h2>
+
+Featured Remedies
+
+</h2>
+
+<p>
+
+Some of Ayurveda's most trusted and widely used traditional remedies.
+
+</p>
+
+</div>
+
+<div class="featured-grid">
+
+<article class="featured-card">
+
+<img
+
+src="../images/remedies/golden-milk.jpg"
+
+alt="Golden Milk">
+
+<div class="featured-content">
+
+<h3>
+
+Golden Milk
+
+</h3>
+
+<p>
+
+Turmeric-based traditional drink known for supporting
+immunity,
+joint health and overall wellness.
+
+</p>
+
+<a
+
+href="remedies-profile.html?id=1"
+
+class="btn btn-primary">
+
+View Remedy
+
+</a>
+
+</div>
+
+</article>
+
+<article class="featured-card">
+
+<img
+
+src="../images/remedies/tulsi-tea.jpg"
+
+alt="Tulsi Tea">
+
+<div class="featured-content">
+
+<h3>
+
+Tulsi Tea
+
+</h3>
+
+<p>
+
+Traditional herbal tea commonly used to support respiratory health
+and relieve stress.
+
+</p>
+
+<a
+
+href="remedies-profile.html?id=2"
+
+class="btn btn-primary">
+
+View Remedy
+
+</a>
+
+</div>
+
+</article>
+
+<article class="featured-card">
+
+<img
+
+src="../images/remedies/neem-paste.jpg"
+
+alt="Neem Paste">
+
+<div class="featured-content">
+
+<h3>
+
+Neem Paste
+
+</h3>
+
+<p>
+
+An Ayurvedic preparation traditionally used for skin care
+and purification.
+
+</p>
+
+<a
+
+href="remedies-profile.html?id=3"
+
+class="btn btn-primary">
+
+View Remedy
+
+</a>
+
+</div>
+
+</article>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================================
+REMEDY LIBRARY
+========================================= -->
+
+<section
+
+id="library"
+
+class="remedies-library">
+
+<div class="container">
+
+<div class="section-heading">
+
+<h2>
+
+Ayurvedic Remedy Library
+
+</h2>
+
+<p>
+
+Browse the KORA digital remedy database.
+
+</p>
+
+</div>
+
+<div
+
+id="remediesGrid"
+
+class="remedies-grid">
+
+<!-- JavaScript Generates Remedy Cards -->
+
+</div>
+        <div class="load-more">
+
+            <button id="loadMoreBtn"
+                    class="btn btn-outline">
+
+                Load More Remedies
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================
+WHY AYURVEDIC REMEDIES
+========================================= -->
+
+<section class="benefits-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <h2>
+
+                Why Ayurvedic Remedies?
+
+            </h2>
+
+            <p>
+
+                Ayurvedic remedies combine medicinal plants, minerals, and
+                traditional preparation techniques to promote balance, wellness,
+                and preventive healthcare.
+
+            </p>
+
+        </div>
+
+        <div class="benefits-grid">
+
+            <div class="benefit-card">
+
+                <h3>
+
+                    Holistic Wellness
+
+                </h3>
+
+                <p>
+
+                    Ayurveda focuses on treating the individual as a whole,
+                    supporting physical, mental, and emotional wellbeing.
+
+                </p>
+
+            </div>
+
+            <div class="benefit-card">
+
+                <h3>
+
+                    Natural Ingredients
+
+                </h3>
+
+                <p>
+
+                    Traditional remedies primarily use herbs, spices, fruits,
+                    and other naturally sourced ingredients.
+
+                </p>
+
+            </div>
+
+            <div class="benefit-card">
+
+                <h3>
+
+                    Centuries of Knowledge
+
+                </h3>
+
+                <p>
+
+                    Many formulations have been documented and refined through
+                    generations of Ayurvedic practice.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================
+STATISTICS
+========================================= -->
+
+<section class="stats-section">
+
+    <div class="container">
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+
+                <h2>300+</h2>
+
+                <p>
+
+                    Traditional Remedies
+
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>1000+</h2>
+
+                <p>
+
+                    Herbal Ingredients
+
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>5000+</h2>
+
+                <p>
+
+                    Years of Ayurvedic History
+
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>50+</h2>
+
+                <p>
+
+                    Health Categories
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================
+CALL TO ACTION
+========================================= -->
+
+<section class="cta-section">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+            <h2>
+
+                Continue Your Wellness Journey
+
+            </h2>
+
+            <p>
+
+                Discover medicinal plants, Ayurvedic therapies, and
+                evidence-based wellness knowledge through the KORA platform.
+
+            </p>
+
+            <div class="cta-buttons">
+
+                <a href="plants.html"
+                   class="btn btn-primary">
+
+                    Explore Plants
+
+                </a>
+
+                <a href="therapy.html"
+                   class="btn btn-secondary">
+
+                    Explore Therapy
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================
+FOOTER
+========================================= -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div class="footer-column">
+
+                <h2>
+
+                    KORA
+
+                </h2>
+
+                <p>
+
+                    Knowledge • Outreach • Rehabilitation • Ayurveda
+
+                </p>
+
+                <p>
+
+                    Preserving Ancient Wisdom.
+                    Empowering Modern Wellness.
+
+                </p>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>
+
+                    Explore
+
+                </h3>
+
+                <ul>
+
+                    <li><a href="plants.html">Medicinal Plants</a></li>
+
+                    <li><a href="remedies.html">Remedies</a></li>
+
+                    <li><a href="therapy.html">Therapy</a></li>
+
+                    <li><a href="community.html">Community</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>
+
+                    Company
+
+                </h3>
+
+                <ul>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>
+
+                    Legal
+
+                </h3>
+
+                <ul>
+
+                    <li><a href="#">Privacy Policy</a></li>
+
+                    <li><a href="#">Terms of Service</a></li>
+
+                    <li><a href="#">Support</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © 2026 KORA. All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- =========================================
+SCRIPTS
+========================================= -->
+
+<script src="../js/remedies.js"></script>
+
+</body>
+
+</html>

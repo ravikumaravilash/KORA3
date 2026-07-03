@@ -1,0 +1,469 @@
+/* =========================================
+   PLANT PROFILE PAGE
+========================================= */
+
+:root{
+
+--primary:#0F3D2E;
+--secondary:#D4AF37;
+--background:#081C15;
+--card:#10271F;
+--text:#F5F7F5;
+--light:#B8C4BE;
+
+}
+
+body{
+
+background:var(--background);
+
+color:var(--text);
+
+font-family:"Poppins",sans-serif;
+
+overflow-x:hidden;
+
+}
+
+/* =========================================
+HERO
+========================================= */
+
+.plant-hero{
+
+padding:140px 0 80px;
+
+}
+
+.plant-hero-grid{
+
+display:grid;
+
+grid-template-columns:450px 1fr;
+
+gap:70px;
+
+align-items:center;
+
+}
+
+.plant-image img{
+
+width:100%;
+
+height:520px;
+
+object-fit:cover;
+
+border-radius:25px;
+
+border:2px solid rgba(212,175,55,.35);
+
+box-shadow:
+
+0 25px 60px rgba(0,0,0,.45);
+
+}
+
+.plant-details h1{
+
+font-size:4rem;
+
+margin-bottom:12px;
+
+font-weight:700;
+
+}
+
+.botanical{
+
+font-size:1.2rem;
+
+font-style:italic;
+
+color:var(--secondary);
+
+margin-bottom:30px;
+
+}
+
+.description{
+
+font-size:1.05rem;
+
+line-height:2;
+
+color:var(--light);
+
+margin-bottom:40px;
+
+}
+
+.tag-container{
+
+display:flex;
+
+gap:15px;
+
+flex-wrap:wrap;
+
+margin-top:20px;
+
+}
+
+.tag{
+
+padding:10px 22px;
+
+background:rgba(212,175,55,.10);
+
+border:1px solid rgba(212,175,55,.25);
+
+border-radius:40px;
+
+color:var(--secondary);
+
+font-size:.9rem;
+
+}
+
+/* =========================================
+CONTENT
+========================================= */
+
+.plant-information{
+
+padding:100px 0;
+
+}
+
+.info-grid{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:35px;
+
+}
+
+.info-card{
+
+background:rgba(255,255,255,.04);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:24px;
+
+padding:35px;
+
+backdrop-filter:blur(18px);
+
+transition:.35s;
+
+}
+
+.info-card:hover{
+
+transform:translateY(-8px);
+
+border-color:rgba(212,175,55,.45);
+
+box-shadow:
+
+0 18px 45px rgba(0,0,0,.35);
+
+}
+
+.info-card h2{
+
+font-size:1.5rem;
+
+margin-bottom:18px;
+
+color:var(--secondary);
+
+}
+
+.info-card p{
+
+line-height:1.9;
+
+color:var(--light);
+
+}
+/* =========================================
+RELATED PLANTS
+========================================= */
+
+.related-section{
+
+padding:110px 0;
+
+}
+
+.related-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:35px;
+
+margin-top:60px;
+
+}
+
+.related-card{
+
+background:rgba(255,255,255,.04);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:22px;
+
+overflow:hidden;
+
+transition:.35s;
+
+backdrop-filter:blur(18px);
+
+}
+
+.related-card:hover{
+
+transform:translateY(-10px);
+
+border-color:rgba(212,175,55,.45);
+
+box-shadow:0 18px 45px rgba(0,0,0,.35);
+
+}
+
+.related-card img{
+
+width:100%;
+
+height:220px;
+
+object-fit:cover;
+
+display:block;
+
+transition:.4s;
+
+}
+
+.related-card:hover img{
+
+transform:scale(1.05);
+
+}
+
+.related-content{
+
+padding:25px;
+
+}
+
+.related-content h3{
+
+font-size:1.35rem;
+
+margin-bottom:8px;
+
+color:var(--text);
+
+}
+
+.related-content p{
+
+color:var(--light);
+
+line-height:1.8;
+
+margin-bottom:22px;
+
+}
+
+/* =========================================
+BUTTONS
+========================================= */
+
+.btn{
+
+display:inline-flex;
+
+align-items:center;
+
+justify-content:center;
+
+padding:14px 32px;
+
+border-radius:50px;
+
+font-weight:600;
+
+text-decoration:none;
+
+transition:.35s;
+
+cursor:pointer;
+
+}
+
+.btn-primary{
+
+background:var(--secondary);
+
+color:#081C15;
+
+}
+
+.btn-primary:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 15px 35px rgba(212,175,55,.25);
+
+}
+
+.btn-secondary{
+
+background:transparent;
+
+border:1px solid rgba(255,255,255,.12);
+
+color:white;
+
+}
+
+.btn-secondary:hover{
+
+background:rgba(255,255,255,.08);
+
+}
+
+/* =========================================
+SECTION HEADING
+========================================= */
+
+.section-heading{
+
+text-align:center;
+
+margin-bottom:70px;
+
+}
+
+.section-heading h2{
+
+font-size:2.6rem;
+
+margin-bottom:18px;
+
+}
+
+.section-heading p{
+
+max-width:700px;
+
+margin:auto;
+
+line-height:1.9;
+
+color:var(--light);
+
+}
+
+/* =========================================
+RESPONSIVE
+========================================= */
+
+@media(max-width:1100px){
+
+.plant-hero-grid{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.plant-image{
+
+max-width:450px;
+
+margin:auto;
+
+}
+
+.info-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.plant-details h1{
+
+font-size:2.8rem;
+
+}
+
+.description{
+
+font-size:1rem;
+
+}
+
+.tag-container{
+
+justify-content:center;
+
+}
+
+.related-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.info-card{
+
+padding:28px;
+
+}
+
+}
+
+@media(max-width:500px){
+
+.plant-details h1{
+
+font-size:2.2rem;
+
+}
+
+.botanical{
+
+font-size:1rem;
+
+}
+
+.section-heading h2{
+
+font-size:2rem;
+
+}
+
+.plant-image img{
+
+height:380px;
+
+}
+
+}
