@@ -12,7 +12,7 @@ async function loadPlant() {
 
     try {
 
-        const response = await fetch("data/plants.json");
+        const response = await fetch("../data/plants.json");
 
         allPlants = await response.json();
 
