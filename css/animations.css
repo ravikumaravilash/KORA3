@@ -1,0 +1,528 @@
+/* ==========================================
+   KORA GLOBAL ANIMATIONS
+========================================== */
+
+/* Fade In */
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+/* Fade Up */
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(60px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* Fade Down */
+
+@keyframes fadeDown{
+    from{
+        opacity:0;
+        transform:translateY(-60px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* Fade Left */
+
+@keyframes fadeLeft{
+    from{
+        opacity:0;
+        transform:translateX(-60px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+/* Fade Right */
+
+@keyframes fadeRight{
+    from{
+        opacity:0;
+        transform:translateX(60px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+/* Scale */
+
+@keyframes scaleIn{
+    from{
+        opacity:0;
+        transform:scale(.85);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+
+/* Floating */
+
+@keyframes floating{
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-12px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+/* Glow */
+
+@keyframes glow{
+
+    0%{
+
+        box-shadow:0 0 0 rgba(212,175,55,.15);
+
+    }
+
+    50%{
+
+        box-shadow:0 0 35px rgba(212,175,55,.35);
+
+    }
+
+    100%{
+
+        box-shadow:0 0 0 rgba(212,175,55,.15);
+
+    }
+
+}
+
+/* Rotate */
+
+@keyframes rotateSlow{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+/* Pulse */
+
+@keyframes pulse{
+
+    0%{
+
+        transform:scale(1);
+
+    }
+
+    50%{
+
+        transform:scale(1.05);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+
+/* Gradient */
+
+@keyframes gradientMove{
+
+    0%{
+
+        background-position:0% 50%;
+
+    }
+
+    50%{
+
+        background-position:100% 50%;
+
+    }
+
+    100%{
+
+        background-position:0% 50%;
+
+    }
+
+}
+
+/* ==========================================
+ANIMATION CLASSES
+========================================== */
+
+.fade-in{
+
+    animation:fadeIn .9s ease forwards;
+
+}
+
+.fade-up{
+
+    animation:fadeUp .9s ease forwards;
+
+}
+
+.fade-down{
+
+    animation:fadeDown .9s ease forwards;
+
+}
+
+.fade-left{
+
+    animation:fadeLeft .9s ease forwards;
+
+}
+
+.fade-right{
+
+    animation:fadeRight .9s ease forwards;
+
+}
+
+.scale-in{
+
+    animation:scaleIn .8s ease forwards;
+
+}
+
+.floating{
+
+    animation:floating 4s ease-in-out infinite;
+
+}
+
+.glow{
+
+    animation:glow 3s infinite;
+
+}
+
+.rotate{
+
+    animation:rotateSlow 18s linear infinite;
+
+}
+
+.pulse{
+
+    animation:pulse 2.5s infinite;
+
+}
+
+/* ==========================================
+BUTTONS
+========================================== */
+
+.btn{
+
+    transition:.35s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.btn-primary:hover{
+
+    box-shadow:0 20px 35px rgba(212,175,55,.25);
+
+}
+
+/* ==========================================
+CARDS
+========================================== */
+
+.card,
+
+.info-card,
+
+.plant-card,
+
+.remedy-card,
+
+.featured-card{
+
+    transition:.35s;
+
+}
+
+.card:hover,
+
+.info-card:hover,
+
+.plant-card:hover,
+
+.remedy-card:hover,
+
+.featured-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+
+}
+
+/* ==========================================
+IMAGES
+========================================== */
+
+img{
+
+    transition:.45s;
+
+}
+
+.card:hover img,
+
+.plant-card:hover img,
+
+.remedy-card:hover img{
+
+    transform:scale(1.05);
+
+}
+
+/* ==========================================
+PAGE LOAD
+========================================== */
+
+body{
+
+    animation:fadeIn .8s ease;
+
+}
+
+/* ==========================================
+SMOOTH SCROLL
+========================================== */
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+/* ==========================================
+SCROLL REVEAL
+========================================== */
+
+.reveal{
+
+    opacity:0;
+
+    transform:translateY(70px);
+
+    transition:
+
+    opacity .9s ease,
+
+    transform .9s ease;
+
+}
+
+.reveal.active{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+.reveal-left{
+
+    opacity:0;
+
+    transform:translateX(-70px);
+
+    transition:
+
+    opacity .9s ease,
+
+    transform .9s ease;
+
+}
+
+.reveal-left.active{
+
+    opacity:1;
+
+    transform:translateX(0);
+
+}
+
+.reveal-right{
+
+    opacity:0;
+
+    transform:translateX(70px);
+
+    transition:
+
+    opacity .9s ease,
+
+    transform .9s ease;
+
+}
+
+.reveal-right.active{
+
+    opacity:1;
+
+    transform:translateX(0);
+
+}
+
+.reveal-scale{
+
+    opacity:0;
+
+    transform:scale(.9);
+
+    transition:
+
+    opacity .9s ease,
+
+    transform .9s ease;
+
+}
+
+.reveal-scale.active{
+
+    opacity:1;
+
+    transform:scale(1);
+
+}
+
+/* ==========================================
+STAGGER ANIMATION
+========================================== */
+
+.stagger>*{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+}
+
+.stagger.active>*:nth-child(1){
+
+    animation:fadeUp .7s ease forwards;
+
+    animation-delay:.1s;
+
+}
+
+.stagger.active>*:nth-child(2){
+
+    animation:fadeUp .7s ease forwards;
+
+    animation-delay:.25s;
+
+}
+
+.stagger.active>*:nth-child(3){
+
+    animation:fadeUp .7s ease forwards;
+
+    animation-delay:.4s;
+
+}
+
+.stagger.active>*:nth-child(4){
+
+    animation:fadeUp .7s ease forwards;
+
+    animation-delay:.55s;
+
+}
+
+.stagger.active>*:nth-child(5){
+
+    animation:fadeUp .7s ease forwards;
+
+    animation-delay:.7s;
+
+}
+
+.stagger.active>*:nth-child(6){
+
+    animation:fadeUp .7s ease forwards;
+
+    animation-delay:.85s;
+
+}
+
+/* ==========================================
+SECTION SPACING
+========================================== */
+
+section{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+/* ==========================================
+SELECTION
+========================================== */
+
+::selection{
+
+    background:#D4AF37;
+
+    color:#081C15;
+
+}
+
+::-moz-selection{
+
+    background:#D4AF37;
+
+    color:#081C15;
+
+}

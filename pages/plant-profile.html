@@ -1,284 +1,560 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-<title>
+    <title>Plant Profile | KORA</title>
 
-KORA | Plant Profile
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/plants-profile.css">
 
-</title>
-
-<link rel="preconnect"
-href="https://fonts.googleapis.com">
-
-<link rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-rel="stylesheet">
-
-<link rel="stylesheet"
-href="../css/global.css">
-
-<link rel="stylesheet"
-href="../css/navbar.css">
-
-<link rel="stylesheet"
-href="../css/footer.css">
-
-<link rel="stylesheet"
-href="../css/plants-profile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
 
 </head>
 
 <body>
 
-<!-- ==========================
+<!-- =========================
 NAVBAR
-========================== -->
+========================= -->
 
-<nav class="navbar">
+<header id="navbar"></header>
 
-<div class="nav-container">
+<!-- =========================
+HERO
+========================= -->
 
-<a href="../home.html"
-class="logo">
+<section class="profile-hero">
 
-<div class="logo-title">
+    <div class="container hero-grid">
 
-KORA
+        <div class="hero-image reveal-left">
 
-</div>
+            <img id="plantImage"
+                 src=""
+                 alt="Plant">
 
-<div class="logo-subtitle">
+        </div>
 
-Knowledge • Outreach • Rehabilitation • Ayurveda
+        <div class="hero-content reveal-right">
 
-</div>
+            <span class="hero-tag">
 
-</a>
+                Medicinal Plant Database
 
-<ul class="nav-links">
+            </span>
 
-<li><a href="../home.html">Home</a></li>
+            <h1 id="plantName">
 
-<li><a href="ayurveda.html">Ayurveda</a></li>
+                Loading...
 
-<li><a href="plants.html" class="active">
+            </h1>
 
-Plants
+            <h3 id="botanicalName">
 
-</a></li>
+            </h3>
 
-<li><a href="remedies.html">
+            <div class="hero-meta">
 
-Remedies
+                <div class="meta-card">
 
-</a></li>
+                    <h4>Family</h4>
 
-<li><a href="therapy.html">
+                    <p id="family"></p>
 
-Therapy
+                </div>
 
-</a></li>
+                <div class="meta-card">
 
-<li><a href="community.html">
+                    <h4>Origin</h4>
 
-Community
+                    <p id="origin"></p>
 
-</a></li>
+                </div>
 
-</ul>
+                <div class="meta-card">
 
-</div>
+                    <h4>Category</h4>
 
-</nav>
+                    <p id="category"></p>
 
-<!-- ==========================
-PLANT HERO
-========================== -->
+                </div>
 
-<section class="plant-hero">
+            </div>
 
-<div class="container">
+        </div>
 
-<div id="plantHero"
-
-class="plant-hero-grid">
-
-<!-- JavaScript Loads Hero -->
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
-<!-- ==========================
-PLANT INFORMATION
-========================== -->
+<!-- =========================
+QUICK FACTS
+========================= -->
 
-<section class="plant-information">
+<section class="facts-section">
 
-<div class="container">
+    <div class="container">
 
-<div id="plantContent">
+        <div class="section-heading reveal">
 
-<!-- JavaScript Loads Content -->
+            <h2>
 
-</div>
+                Quick Facts
 
-</div>
+            </h2>
+
+            <p>
+
+                Essential botanical information at a glance.
+
+            </p>
+
+        </div>
+
+        <div class="facts-grid">
+
+            <div class="fact-card reveal">
+
+                <h3>
+
+                    Family
+
+                </h3>
+
+                <p id="familyFact"></p>
+
+            </div>
+
+            <div class="fact-card reveal">
+
+                <h3>
+
+                    Habitat
+
+                </h3>
+
+                <p id="habitat"></p>
+
+            </div>
+
+            <div class="fact-card reveal">
+
+                <h3>
+
+                    Parts Used
+
+                </h3>
+
+                <p id="partsUsed"></p>
+
+            </div>
+
+            <div class="fact-card reveal">
+
+                <h3>
+
+                    Category
+
+                </h3>
+
+                <p id="categoryFact"></p>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
-<!-- ==========================
+<!-- =========================
+ABOUT
+========================= -->
+
+<section class="about-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <h2>
+
+                About This Plant
+
+            </h2>
+
+        </div>
+
+        <div class="about-card reveal">
+
+            <p id="description">
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+HEALTH BENEFITS
+========================= -->
+
+<section class="benefits-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <h2>
+
+                Health Benefits
+
+            </h2>
+
+            <p>
+
+                Traditionally recognized wellness benefits supported by Ayurvedic knowledge.
+
+            </p>
+
+        </div>
+
+        <div id="benefitsGrid"
+
+             class="benefits-grid">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+TRADITIONAL USES
+========================= -->
+
+<section class="uses-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <h2>
+
+                Traditional Uses
+
+            </h2>
+
+            <p>
+
+                Common Ayurvedic applications of this medicinal plant.
+
+            </p>
+
+        </div>
+
+        <div id="usesTimeline"
+
+             class="uses-timeline">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+PREPARATION METHODS
+========================= -->
+
+<section class="preparation-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <h2>
+
+                Preparation Methods
+
+            </h2>
+
+            <p>
+
+                Different traditional ways this plant is prepared.
+
+            </p>
+
+        </div>
+
+        <div id="preparationGrid"
+
+             class="prep-grid">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+SCIENTIFIC RESEARCH
+========================= -->
+
+<section class="research-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <h2>
+
+                Modern Scientific Research
+
+            </h2>
+
+        </div>
+
+        <div class="research-card reveal">
+
+            <p id="research">
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+HABITAT
+========================= -->
+
+<section class="habitat-section">
+
+    <div class="container habitat-grid">
+
+        <div class="habitat-image reveal-left">
+
+            <img id="habitatImage"
+
+                 src=""
+
+                 alt="Habitat">
+
+        </div>
+
+        <div class="habitat-content reveal-right">
+
+            <h2>
+
+                Natural Habitat
+
+            </h2>
+
+            <p id="habitatDescription">
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================
+GALLERY
+========================= -->
+
+<section class="gallery-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <h2>
+
+                Plant Gallery
+
+            </h2>
+
+            <p>
+
+                Explore different views of this medicinal plant.
+
+            </p>
+
+        </div>
+
+        <div id="galleryGrid"
+
+             class="gallery-grid">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+INTERESTING FACT
+========================= -->
+
+<section class="fact-section">
+
+    <div class="container">
+
+        <div class="fact-box reveal">
+
+            <h2>
+
+                Interesting Fact
+
+            </h2>
+
+            <p id="interestingFact">
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+PRECAUTIONS
+========================= -->
+
+<section class="precaution-section">
+
+    <div class="container">
+
+        <div class="warning-card reveal">
+
+            <h2>
+
+                Precautions
+
+            </h2>
+
+            <p id="precautions">
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
 RELATED PLANTS
-========================== -->
+========================= -->
 
 <section class="related-section">
 
-<div class="container">
+    <div class="container">
 
-<div class="section-heading">
+        <div class="section-heading reveal">
 
-<h2>
+            <h2>
 
-Related Medicinal Plants
+                Related Medicinal Plants
 
-</h2>
+            </h2>
 
-<p>
+            <p>
 
-Explore similar medicinal plants from the KORA database.
+                Explore other plants from the same category.
 
-</p>
+            </p>
 
-</div>
+        </div>
 
-<div
+        <div id="relatedPlants"
 
-id="relatedPlants"
+             class="related-grid">
 
-class="related-grid">
+        </div>
 
-<!-- JS -->
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
-<!-- ==========================
+<!-- =========================
+CALL TO ACTION
+========================= -->
+
+<section class="cta-section">
+
+    <div class="container">
+
+        <div class="cta-box reveal">
+
+            <h2>
+
+                Continue Exploring Ayurveda
+
+            </h2>
+
+            <p>
+
+                Discover more medicinal plants, remedies and the wisdom of Ayurveda with KORA.
+
+            </p>
+
+            <div class="cta-buttons">
+
+                <a href="plants.html"
+
+                   class="btn btn-primary">
+
+                    Explore More Plants
+
+                </a>
+
+                <a href="remedies.html"
+
+                   class="btn btn-outline">
+
+                    Ayurvedic Remedies
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
 FOOTER
-========================== -->
+========================= -->
 
-<footer class="footer">
+<footer id="footer"></footer>
 
-<div class="container">
+<!-- =========================
+SCRIPTS
+========================= -->
 
-<div class="footer-grid">
-
-<div>
-
-<h2>
-
-KORA
-
-</h2>
-
-<p>
-
-Knowledge • Outreach • Rehabilitation • Ayurveda
-
-</p>
-
-</div>
-
-<div>
-
-<h3>
-
-Explore
-
-</h3>
-
-<ul>
-
-<li><a href="plants.html">
-
-Medicinal Plants
-
-</a></li>
-
-<li><a href="remedies.html">
-
-Remedies
-
-</a></li>
-
-<li><a href="therapy.html">
-
-Therapy
-
-</a></li>
-
-</ul>
-
-</div>
-
-<div>
-
-<h3>
-
-About
-
-</h3>
-
-<ul>
-
-<li><a href="about.html">
-
-About
-
-</a></li>
-
-<li><a href="contact.html">
-
-Contact
-
-</a></li>
-
-</ul>
-
-</div>
-
-</div>
-
-<div class="footer-bottom">
-
-<p>
-
-© 2026 KORA
-
-</p>
-
-</div>
-
-</div>
-
-</footer>
-
-<script src="../js/plants-profile.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/plants-profile.js"></script>
 
 </body>
 

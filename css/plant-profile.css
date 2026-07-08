@@ -1,15 +1,26 @@
-/* =========================================
-   PLANT PROFILE PAGE
-========================================= */
+/* ==========================================
+   KORA PLANT PROFILE
+========================================== */
 
 :root{
 
 --primary:#0F3D2E;
+
 --secondary:#D4AF37;
+
 --background:#081C15;
---card:#10271F;
---text:#F5F7F5;
---light:#B8C4BE;
+
+--surface:#11241D;
+
+--surface-light:#183428;
+
+--text:#F4F7F4;
+
+--text-light:#B9C6BE;
+
+--border:rgba(255,255,255,.08);
+
+--glass:rgba(255,255,255,.05);
 
 }
 
@@ -19,27 +30,43 @@ background:var(--background);
 
 color:var(--text);
 
-font-family:"Poppins",sans-serif;
+font-family:'Poppins',sans-serif;
 
 overflow-x:hidden;
 
 }
 
-/* =========================================
+/* ==========================================
 HERO
-========================================= */
+========================================== */
 
-.plant-hero{
+.profile-hero{
 
-padding:140px 0 80px;
+padding:160px 0 120px;
+
+background:
+
+linear-gradient(
+
+rgba(8,28,21,.82),
+
+rgba(8,28,21,.92)
+
+),
+
+url("../images/backgrounds/plants-profile.jpg");
+
+background-size:cover;
+
+background-position:center;
 
 }
 
-.plant-hero-grid{
+.hero-grid{
 
 display:grid;
 
-grid-template-columns:450px 1fr;
+grid-template-columns:420px 1fr;
 
 gap:70px;
 
@@ -47,7 +74,13 @@ align-items:center;
 
 }
 
-.plant-image img{
+.hero-image{
+
+position:relative;
+
+}
+
+.hero-image img{
 
 width:100%;
 
@@ -55,115 +88,101 @@ height:520px;
 
 object-fit:cover;
 
-border-radius:25px;
+border-radius:30px;
 
-border:2px solid rgba(212,175,55,.35);
+border:1px solid rgba(255,255,255,.08);
 
 box-shadow:
 
 0 25px 60px rgba(0,0,0,.45);
 
-}
-
-.plant-details h1{
-
-font-size:4rem;
-
-margin-bottom:12px;
-
-font-weight:700;
+transition:.5s;
 
 }
 
-.botanical{
+.hero-image img:hover{
 
-font-size:1.2rem;
-
-font-style:italic;
-
-color:var(--secondary);
-
-margin-bottom:30px;
+transform:scale(1.03);
 
 }
 
-.description{
+.hero-tag{
 
-font-size:1.05rem;
-
-line-height:2;
-
-color:var(--light);
-
-margin-bottom:40px;
-
-}
-
-.tag-container{
-
-display:flex;
-
-gap:15px;
-
-flex-wrap:wrap;
-
-margin-top:20px;
-
-}
-
-.tag{
+display:inline-block;
 
 padding:10px 22px;
 
-background:rgba(212,175,55,.10);
+border-radius:40px;
+
+background:rgba(212,175,55,.12);
+
+color:var(--secondary);
 
 border:1px solid rgba(212,175,55,.25);
 
-border-radius:40px;
-
-color:var(--secondary);
+margin-bottom:28px;
 
 font-size:.9rem;
 
 }
 
-/* =========================================
-CONTENT
-========================================= */
+.hero-content h1{
 
-.plant-information{
+font-size:4rem;
 
-padding:100px 0;
+font-weight:700;
+
+line-height:1.1;
+
+margin-bottom:15px;
 
 }
 
-.info-grid{
+.hero-content h3{
+
+font-style:italic;
+
+font-weight:400;
+
+font-size:1.4rem;
+
+color:var(--secondary);
+
+margin-bottom:45px;
+
+}
+
+/* ==========================================
+META CARDS
+========================================== */
+
+.hero-meta{
 
 display:grid;
 
-grid-template-columns:repeat(2,1fr);
+grid-template-columns:repeat(3,1fr);
 
-gap:35px;
+gap:25px;
 
 }
 
-.info-card{
+.meta-card{
 
-background:rgba(255,255,255,.04);
-
-border:1px solid rgba(255,255,255,.08);
-
-border-radius:24px;
-
-padding:35px;
+background:var(--glass);
 
 backdrop-filter:blur(18px);
+
+border:1px solid var(--border);
+
+padding:30px;
+
+border-radius:22px;
 
 transition:.35s;
 
 }
 
-.info-card:hover{
+.meta-card:hover{
 
 transform:translateY(-8px);
 
@@ -171,56 +190,645 @@ border-color:rgba(212,175,55,.45);
 
 box-shadow:
 
-0 18px 45px rgba(0,0,0,.35);
+0 18px 40px rgba(0,0,0,.35);
 
 }
 
-.info-card h2{
-
-font-size:1.5rem;
-
-margin-bottom:18px;
+.meta-card h4{
 
 color:var(--secondary);
 
-}
+margin-bottom:12px;
 
-.info-card p{
-
-line-height:1.9;
-
-color:var(--light);
+font-size:1rem;
 
 }
-/* =========================================
-RELATED PLANTS
-========================================= */
 
-.related-section{
+.meta-card p{
+
+font-size:1rem;
+
+line-height:1.8;
+
+color:var(--text-light);
+
+}
+
+/* ==========================================
+SECTIONS
+========================================== */
+
+section{
 
 padding:110px 0;
 
 }
 
-.related-grid{
+.section-heading{
+
+text-align:center;
+
+margin-bottom:70px;
+
+}
+
+.section-heading h2{
+
+font-size:2.8rem;
+
+margin-bottom:18px;
+
+}
+
+.section-heading p{
+
+max-width:760px;
+
+margin:auto;
+
+color:var(--text-light);
+
+line-height:1.9;
+
+}
+
+/* ==========================================
+QUICK FACTS
+========================================== */
+
+.facts-grid{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:30px;
+
+}
+
+.fact-card{
+
+background:var(--glass);
+
+border:1px solid var(--border);
+
+border-radius:24px;
+
+padding:35px;
+
+text-align:center;
+
+backdrop-filter:blur(18px);
+
+transition:.35s;
+
+}
+
+.fact-card:hover{
+
+transform:translateY(-10px);
+
+border-color:rgba(212,175,55,.45);
+
+box-shadow:
+
+0 18px 40px rgba(0,0,0,.35);
+
+}
+
+.fact-card h3{
+
+color:var(--secondary);
+
+margin-bottom:15px;
+
+font-size:1.25rem;
+
+}
+
+.fact-card p{
+
+line-height:1.8;
+
+color:var(--text-light);
+
+}
+
+/* ==========================================
+ABOUT
+========================================== */
+
+.about-card{
+
+max-width:1000px;
+
+margin:auto;
+
+padding:50px;
+
+background:var(--glass);
+
+border:1px solid var(--border);
+
+border-radius:30px;
+
+backdrop-filter:blur(18px);
+
+}
+
+.about-card p{
+
+font-size:1.08rem;
+
+line-height:2.1;
+
+color:var(--text-light);
+
+}
+/* ==========================================
+HEALTH BENEFITS
+========================================== */
+
+.benefits-grid{
 
 display:grid;
 
 grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 
-gap:35px;
+gap:30px;
 
-margin-top:60px;
+}
+
+.benefit-card{
+
+background:var(--glass);
+
+backdrop-filter:blur(18px);
+
+border:1px solid var(--border);
+
+border-radius:24px;
+
+padding:35px;
+
+transition:.35s;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.benefit-card::before{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+top:0;
+
+width:5px;
+
+height:100%;
+
+background:var(--secondary);
+
+}
+
+.benefit-card:hover{
+
+transform:translateY(-10px);
+
+border-color:rgba(212,175,55,.45);
+
+box-shadow:0 20px 45px rgba(0,0,0,.35);
+
+}
+
+.benefit-card h3{
+
+font-size:1.3rem;
+
+margin-bottom:15px;
+
+color:var(--secondary);
+
+}
+
+.benefit-card p{
+
+line-height:1.8;
+
+color:var(--text-light);
+
+}
+
+/* ==========================================
+TRADITIONAL USES
+========================================== */
+
+.uses-timeline{
+
+position:relative;
+
+max-width:900px;
+
+margin:auto;
+
+}
+
+.uses-timeline::before{
+
+content:"";
+
+position:absolute;
+
+left:35px;
+
+top:0;
+
+bottom:0;
+
+width:3px;
+
+background:rgba(212,175,55,.35);
+
+}
+
+.timeline-item{
+
+position:relative;
+
+margin-bottom:35px;
+
+padding-left:90px;
+
+}
+
+.timeline-item::before{
+
+content:"";
+
+position:absolute;
+
+left:22px;
+
+top:10px;
+
+width:28px;
+
+height:28px;
+
+border-radius:50%;
+
+background:var(--secondary);
+
+box-shadow:0 0 18px rgba(212,175,55,.45);
+
+}
+
+.timeline-item h3{
+
+margin-bottom:10px;
+
+font-size:1.2rem;
+
+color:var(--secondary);
+
+}
+
+.timeline-item p{
+
+line-height:1.8;
+
+color:var(--text-light);
+
+}
+
+/* ==========================================
+PREPARATION METHODS
+========================================== */
+
+.prep-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+}
+
+.prep-card{
+
+background:var(--glass);
+
+border:1px solid var(--border);
+
+border-radius:22px;
+
+padding:35px;
+
+text-align:center;
+
+backdrop-filter:blur(16px);
+
+transition:.35s;
+
+}
+
+.prep-card:hover{
+
+transform:translateY(-10px);
+
+border-color:rgba(212,175,55,.45);
+
+}
+
+.prep-card i{
+
+font-size:2.6rem;
+
+color:var(--secondary);
+
+margin-bottom:18px;
+
+display:block;
+
+}
+
+.prep-card h3{
+
+font-size:1.2rem;
+
+margin-bottom:12px;
+
+}
+
+.prep-card p{
+
+color:var(--text-light);
+
+}
+
+/* ==========================================
+RESEARCH
+========================================== */
+
+.research-card{
+
+max-width:950px;
+
+margin:auto;
+
+padding:45px;
+
+background:linear-gradient(
+
+135deg,
+
+rgba(15,61,46,.92),
+
+rgba(22,72,56,.92)
+
+);
+
+border:1px solid rgba(212,175,55,.20);
+
+border-radius:30px;
+
+backdrop-filter:blur(18px);
+
+}
+
+.research-card p{
+
+font-size:1.05rem;
+
+line-height:2;
+
+color:var(--text-light);
+
+}
+
+/* ==========================================
+HABITAT
+========================================== */
+
+.habitat-grid{
+
+display:grid;
+
+grid-template-columns:420px 1fr;
+
+gap:60px;
+
+align-items:center;
+
+}
+
+.habitat-image img{
+
+width:100%;
+
+height:420px;
+
+object-fit:cover;
+
+border-radius:28px;
+
+border:1px solid var(--border);
+
+box-shadow:0 25px 50px rgba(0,0,0,.35);
+
+transition:.4s;
+
+}
+
+.habitat-image img:hover{
+
+transform:scale(1.03);
+
+}
+
+.habitat-content h2{
+
+font-size:2.6rem;
+
+margin-bottom:25px;
+
+}
+
+.habitat-content p{
+
+line-height:2;
+
+font-size:1.05rem;
+
+color:var(--text-light);
+
+}
+/* ==========================================
+GALLERY
+========================================== */
+
+.gallery-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:30px;
+
+}
+
+.gallery-grid img{
+
+width:100%;
+
+height:260px;
+
+object-fit:cover;
+
+border-radius:22px;
+
+border:1px solid var(--border);
+
+cursor:pointer;
+
+transition:.45s;
+
+box-shadow:0 15px 35px rgba(0,0,0,.30);
+
+}
+
+.gallery-grid img:hover{
+
+transform:scale(1.05);
+
+border-color:rgba(212,175,55,.45);
+
+box-shadow:0 20px 45px rgba(0,0,0,.40);
+
+}
+
+/* ==========================================
+INTERESTING FACT
+========================================== */
+
+.fact-box{
+
+max-width:900px;
+
+margin:auto;
+
+padding:60px;
+
+text-align:center;
+
+background:linear-gradient(
+
+135deg,
+
+#123E30,
+
+#1B5540
+
+);
+
+border-radius:30px;
+
+border:1px solid rgba(212,175,55,.25);
+
+box-shadow:0 20px 50px rgba(0,0,0,.35);
+
+}
+
+.fact-box h2{
+
+margin-bottom:25px;
+
+font-size:2.3rem;
+
+color:var(--secondary);
+
+}
+
+.fact-box p{
+
+font-size:1.1rem;
+
+line-height:2;
+
+font-style:italic;
+
+color:var(--text);
+
+}
+
+/* ==========================================
+PRECAUTIONS
+========================================== */
+
+.warning-card{
+
+max-width:950px;
+
+margin:auto;
+
+padding:45px;
+
+background:
+
+rgba(120,40,20,.18);
+
+border-left:6px solid #ffb84d;
+
+border-radius:24px;
+
+backdrop-filter:blur(18px);
+
+}
+
+.warning-card h2{
+
+color:#FFD166;
+
+margin-bottom:20px;
+
+}
+
+.warning-card p{
+
+line-height:2;
+
+color:var(--text-light);
+
+}
+
+/* ==========================================
+RELATED PLANTS
+========================================== */
+
+.related-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:30px;
 
 }
 
 .related-card{
 
-background:rgba(255,255,255,.04);
+background:var(--glass);
 
-border:1px solid rgba(255,255,255,.08);
+border:1px solid var(--border);
 
-border-radius:22px;
+border-radius:24px;
 
 overflow:hidden;
 
@@ -236,7 +844,7 @@ transform:translateY(-10px);
 
 border-color:rgba(212,175,55,.45);
 
-box-shadow:0 18px 45px rgba(0,0,0,.35);
+box-shadow:0 20px 45px rgba(0,0,0,.35);
 
 }
 
@@ -248,8 +856,6 @@ height:220px;
 
 object-fit:cover;
 
-display:block;
-
 transition:.4s;
 
 }
@@ -260,137 +866,103 @@ transform:scale(1.05);
 
 }
 
-.related-content{
+.related-card-content{
 
 padding:25px;
 
 }
 
-.related-content h3{
+.related-card-content h3{
 
-font-size:1.35rem;
-
-margin-bottom:8px;
-
-color:var(--text);
+margin-bottom:12px;
 
 }
 
-.related-content p{
+.related-card-content p{
 
-color:var(--light);
+color:var(--text-light);
 
 line-height:1.8;
 
-margin-bottom:22px;
+margin-bottom:20px;
 
 }
 
-/* =========================================
-BUTTONS
-========================================= */
+/* ==========================================
+CTA
+========================================== */
 
-.btn{
+.cta-box{
 
-display:inline-flex;
+background:
 
-align-items:center;
+linear-gradient(
 
-justify-content:center;
+135deg,
 
-padding:14px 32px;
+#0F3D2E,
 
-border-radius:50px;
+#1D5B44
 
-font-weight:600;
+);
 
-text-decoration:none;
+padding:80px;
 
-transition:.35s;
-
-cursor:pointer;
-
-}
-
-.btn-primary{
-
-background:var(--secondary);
-
-color:#081C15;
-
-}
-
-.btn-primary:hover{
-
-transform:translateY(-4px);
-
-box-shadow:0 15px 35px rgba(212,175,55,.25);
-
-}
-
-.btn-secondary{
-
-background:transparent;
-
-border:1px solid rgba(255,255,255,.12);
-
-color:white;
-
-}
-
-.btn-secondary:hover{
-
-background:rgba(255,255,255,.08);
-
-}
-
-/* =========================================
-SECTION HEADING
-========================================= */
-
-.section-heading{
+border-radius:30px;
 
 text-align:center;
 
-margin-bottom:70px;
+border:1px solid rgba(212,175,55,.25);
 
 }
 
-.section-heading h2{
+.cta-box h2{
 
-font-size:2.6rem;
+font-size:2.8rem;
 
-margin-bottom:18px;
+margin-bottom:20px;
 
 }
 
-.section-heading p{
+.cta-box p{
 
 max-width:700px;
 
 margin:auto;
 
-line-height:1.9;
+line-height:2;
 
-color:var(--light);
+color:var(--text-light);
+
+margin-bottom:40px;
 
 }
 
-/* =========================================
+.cta-buttons{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+}
+
+/* ==========================================
 RESPONSIVE
-========================================= */
+========================================== */
 
 @media(max-width:1100px){
 
-.plant-hero-grid{
+.hero-grid{
 
 grid-template-columns:1fr;
 
-text-align:center;
-
 }
 
-.plant-image{
+.hero-image{
 
 max-width:450px;
 
@@ -398,7 +970,19 @@ margin:auto;
 
 }
 
-.info-grid{
+.hero-meta{
+
+grid-template-columns:1fr;
+
+}
+
+.facts-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.habitat-grid{
 
 grid-template-columns:1fr;
 
@@ -408,49 +992,9 @@ grid-template-columns:1fr;
 
 @media(max-width:768px){
 
-.plant-details h1{
+.hero-content h1{
 
-font-size:2.8rem;
-
-}
-
-.description{
-
-font-size:1rem;
-
-}
-
-.tag-container{
-
-justify-content:center;
-
-}
-
-.related-grid{
-
-grid-template-columns:1fr;
-
-}
-
-.info-card{
-
-padding:28px;
-
-}
-
-}
-
-@media(max-width:500px){
-
-.plant-details h1{
-
-font-size:2.2rem;
-
-}
-
-.botanical{
-
-font-size:1rem;
+font-size:2.6rem;
 
 }
 
@@ -460,9 +1004,121 @@ font-size:2rem;
 
 }
 
-.plant-image img{
+.facts-grid{
 
-height:380px;
+grid-template-columns:1fr;
+
+}
+
+.gallery-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.related-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.prep-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.benefits-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.timeline-item{
+
+padding-left:70px;
+
+}
+
+.uses-timeline::before{
+
+left:25px;
+
+}
+
+.timeline-item::before{
+
+left:12px;
+
+}
+
+.fact-box{
+
+padding:40px 25px;
+
+}
+
+.warning-card{
+
+padding:30px;
+
+}
+
+.cta-box{
+
+padding:50px 30px;
+
+}
+
+.cta-buttons{
+
+flex-direction:column;
+
+}
+
+}
+
+@media(max-width:500px){
+
+.hero-content h1{
+
+font-size:2rem;
+
+}
+
+.hero-content h3{
+
+font-size:1.1rem;
+
+}
+
+.meta-card{
+
+padding:22px;
+
+}
+
+.about-card{
+
+padding:30px;
+
+}
+
+.fact-card{
+
+padding:25px;
+
+}
+
+.benefit-card{
+
+padding:25px;
+
+}
+
+.prep-card{
+
+padding:25px;
 
 }
 

@@ -3,54 +3,2070 @@
     "id": 1,
     "name": "Ashwagandha",
     "botanical": "Withania somnifera",
+    "family": "Solanaceae",
     "category": "Herbs",
+    "origin": "India, Middle East and Africa",
     "image": "../images/plants/ashwagandha.jpg",
-    "uses": "Improves immunity, reduces stress and supports energy.",
-    "page": "plant-details.html?id=1"
+    "gallery": [
+      "../images/plants/ashwagandha.jpg",
+      "../images/plants/ashwagandha-2.jpg",
+      "../images/plants/ashwagandha-3.jpg"
+    ],
+    "description": "Ashwagandha is one of Ayurveda's most valued adaptogenic herbs, traditionally used to improve vitality, reduce stress, and support overall wellness.",
+    "uses": [
+      "Supports immunity",
+      "Reduces stress",
+      "Improves energy",
+      "Supports sleep"
+    ],
+    "benefits": [
+      "Adaptogenic herb",
+      "Supports brain function",
+      "Promotes stamina",
+      "Rich in antioxidants"
+    ],
+    "partsUsed": [
+      "Root",
+      "Leaves"
+    ],
+    "preparation": [
+      "Powder",
+      "Tea",
+      "Capsules",
+      "Extract"
+    ],
+    "habitat": "Dry tropical and subtropical climates with sandy well-drained soil.",
+    "interestingFact": "Its name means 'Smell of the Horse', symbolizing strength and vitality.",
+    "research": "Modern research focuses on its stress-reducing and cognitive-support properties.",
+    "precautions": "Consult a healthcare professional during pregnancy or if taking thyroid medication.",
+    "page": "plants-profile.html?id=1"
   },
   {
     "id": 2,
     "name": "Neem",
     "botanical": "Azadirachta indica",
+    "family": "Meliaceae",
     "category": "Trees",
+    "origin": "Indian Subcontinent",
     "image": "../images/plants/neem.jpg",
-    "uses": "Supports skin health and has antibacterial properties.",
-    "page": "plant-details.html?id=2"
+    "gallery": [
+      "../images/plants/neem.jpg",
+      "../images/plants/neem-2.jpg",
+      "../images/plants/neem-3.jpg"
+    ],
+    "description": "Neem is known as the 'Village Pharmacy' because almost every part of the tree has traditional medicinal value.",
+    "uses": [
+      "Supports skin health",
+      "Oral hygiene",
+      "Immune support",
+      "Blood purification"
+    ],
+    "benefits": [
+      "Natural antibacterial",
+      "Supports healthy skin",
+      "Rich in antioxidants",
+      "Supports immune health"
+    ],
+    "partsUsed": [
+      "Leaves",
+      "Seeds",
+      "Bark",
+      "Flowers"
+    ],
+    "preparation": [
+      "Leaf paste",
+      "Oil",
+      "Tea",
+      "Powder"
+    ],
+    "habitat": "Warm tropical climates with full sunlight.",
+    "interestingFact": "Neem trees can live for more than 200 years.",
+    "research": "Widely researched for antimicrobial and antioxidant properties.",
+    "precautions": "Neem oil should not be consumed unless advised by a healthcare professional.",
+    "page": "plants-profile.html?id=2"
   },
   {
     "id": 3,
     "name": "Tulsi",
     "botanical": "Ocimum tenuiflorum",
+    "family": "Lamiaceae",
     "category": "Herbs",
+    "origin": "India",
     "image": "../images/plants/tulsi.jpg",
-    "uses": "Strengthens immunity and supports respiratory health.",
-    "page": "plant-details.html?id=3"
+    "gallery": [
+      "../images/plants/tulsi.jpg",
+      "../images/plants/tulsi-2.jpg",
+      "../images/plants/tulsi-3.jpg"
+    ],
+    "description": "Tulsi, or Holy Basil, is regarded as the Queen of Herbs and holds both medicinal and spiritual significance.",
+    "uses": [
+      "Supports respiratory health",
+      "Boosts immunity",
+      "Reduces stress",
+      "Supports digestion"
+    ],
+    "benefits": [
+      "Adaptogenic herb",
+      "Rich in antioxidants",
+      "Supports heart health",
+      "Promotes overall wellness"
+    ],
+    "partsUsed": [
+      "Leaves",
+      "Flowers",
+      "Seeds"
+    ],
+    "preparation": [
+      "Tea",
+      "Extract",
+      "Powder",
+      "Fresh leaves"
+    ],
+    "habitat": "Warm tropical environments with fertile soil.",
+    "interestingFact": "Tulsi is traditionally grown in courtyards across India.",
+    "research": "Modern studies investigate its antioxidant and immune-supporting effects.",
+    "precautions": "Consult a healthcare professional if taking blood-thinning medication.",
+    "page": "plants-profile.html?id=3"
   },
   {
     "id": 4,
     "name": "Aloe Vera",
     "botanical": "Aloe barbadensis Miller",
-    "category": "Shrubs",
+    "family": "Asphodelaceae",
+    "category": "Succulents",
+    "origin": "Arabian Peninsula",
     "image": "../images/plants/aloe-vera.jpg",
-    "uses": "Known for wound healing and skin hydration.",
-    "page": "plant-details.html?id=4"
+    "gallery": [
+      "../images/plants/aloe-vera.jpg",
+      "../images/plants/aloe-vera-2.jpg",
+      "../images/plants/aloe-vera-3.jpg"
+    ],
+    "description": "Aloe Vera is valued for its soothing gel, traditionally used to support skin health and digestive wellness.",
+    "uses": [
+      "Supports skin hydration",
+      "Soothes burns",
+      "Supports digestion",
+      "Promotes wound healing"
+    ],
+    "benefits": [
+      "Cooling properties",
+      "Natural moisturizer",
+      "Rich in antioxidants",
+      "Supports skin repair"
+    ],
+    "partsUsed": [
+      "Leaf gel",
+      "Leaf latex"
+    ],
+    "preparation": [
+      "Fresh gel",
+      "Juice",
+      "Cream",
+      "Extract"
+    ],
+    "habitat": "Dry climates with sandy, well-drained soil.",
+    "interestingFact": "Ancient Egyptians called it the 'Plant of Immortality'.",
+    "research": "Widely studied for skincare and digestive applications.",
+    "precautions": "The latex portion should not be consumed in excess.",
+    "page": "plants-profile.html?id=4"
   },
   {
     "id": 5,
     "name": "Turmeric",
     "botanical": "Curcuma longa",
+    "family": "Zingiberaceae",
     "category": "Herbs",
+    "origin": "India",
     "image": "../images/plants/turmeric.jpg",
-    "uses": "Powerful anti-inflammatory and antioxidant herb.",
-    "page": "plant-details.html?id=5"
-  },
-  {
-    "id": 6,
-    "name": "Brahmi",
-    "botanical": "Bacopa monnieri",
-    "category": "Herbs",
-    "image": "../images/plants/brahmi.jpg",
-    "uses": "Improves memory, concentration and cognitive health.",
-    "page": "plant-details.html?id=6"
+    "gallery": [
+      "../images/plants/turmeric.jpg",
+      "../images/plants/turmeric-2.jpg",
+      "../images/plants/turmeric-3.jpg"
+    ],
+    "description": "Turmeric is one of Ayurveda's most celebrated medicinal herbs, recognized for its vibrant rhizome and traditional wellness applications.",
+    "uses": [
+      "Supports joint health",
+      "Boosts immunity",
+      "Supports liver health",
+      "Promotes healthy skin"
+    ],
+    "benefits": [
+      "Rich in curcumin",
+      "Natural antioxidant",
+      "Supports healthy inflammation response",
+      "Supports digestion"
+    ],
+    "partsUsed": [
+      "Rhizome"
+    ],
+    "preparation": [
+      "Powder",
+      "Golden milk",
+      "Paste",
+      "Capsules"
+    ],
+    "habitat": "Warm, humid tropical climates with fertile soil.",
+    "interestingFact": "Turmeric has been used in India for over 4,000 years.",
+    "research": "Curcumin has been extensively studied for its antioxidant properties.",
+    "precautions": "Large amounts may interact with blood-thinning medication.",
+    "page": "plants-profile.html?id=5"
   }
+  ,
+{
+  "id": 6,
+  "name": "Brahmi",
+  "botanical": "Bacopa monnieri",
+  "family": "Plantaginaceae",
+  "category": "Herbs",
+  "origin": "India",
+  "image": "../images/plants/brahmi.jpg",
+  "gallery": [
+    "../images/plants/brahmi.jpg",
+    "../images/plants/brahmi-2.jpg",
+    "../images/plants/brahmi-3.jpg"
+  ],
+  "description": "Brahmi is a creeping medicinal herb traditionally used in Ayurveda to support memory, concentration and cognitive wellness.",
+  "uses": [
+    "Supports memory",
+    "Improves concentration",
+    "Promotes mental clarity",
+    "Supports nervous system health"
+  ],
+  "benefits": [
+    "Natural adaptogen",
+    "Supports cognitive function",
+    "Rich in antioxidants",
+    "Promotes relaxation"
+  ],
+  "partsUsed": [
+    "Whole Plant"
+  ],
+  "preparation": [
+    "Powder",
+    "Tea",
+    "Capsules",
+    "Extract"
+  ],
+  "habitat": "Moist wetlands, ponds and tropical regions.",
+  "interestingFact": "Brahmi has been used by Ayurvedic scholars for centuries to enhance learning.",
+  "research": "Studies suggest Brahmi may support memory and cognitive performance.",
+  "precautions": "Consult a healthcare professional before combining with sedative medications.",
+  "page": "plants-profile.html?id=6"
+},
+{
+  "id": 7,
+  "name": "Giloy",
+  "botanical": "Tinospora cordifolia",
+  "family": "Menispermaceae",
+  "category": "Climbers",
+  "origin": "India",
+  "image": "../images/plants/giloy.jpg",
+  "gallery": [
+    "../images/plants/giloy.jpg",
+    "../images/plants/giloy-2.jpg",
+    "../images/plants/giloy-3.jpg"
+  ],
+  "description": "Giloy, also known as Guduchi, is one of Ayurveda's most valued rejuvenating climbers and is traditionally used to support immunity and vitality.",
+  "uses": [
+    "Supports immunity",
+    "Supports liver health",
+    "Promotes digestion",
+    "Supports metabolism"
+  ],
+  "benefits": [
+    "Natural antioxidant",
+    "Adaptogenic properties",
+    "Supports immune response",
+    "Supports overall wellness"
+  ],
+  "partsUsed": [
+    "Stem",
+    "Leaves"
+  ],
+  "preparation": [
+    "Juice",
+    "Powder",
+    "Decoction",
+    "Capsules"
+  ],
+  "habitat": "Tropical forests where it climbs large trees.",
+  "interestingFact": "Giloy is called 'Amrita', meaning the Root of Immortality.",
+  "research": "Modern studies investigate its antioxidant and immune-supporting compounds.",
+  "precautions": "Individuals with autoimmune disorders should seek professional advice before regular use.",
+  "page": "plants-profile.html?id=7"
+},
+{
+  "id": 8,
+  "name": "Amla",
+  "botanical": "Phyllanthus emblica",
+  "family": "Phyllanthaceae",
+  "category": "Trees",
+  "origin": "India",
+  "image": "../images/plants/amla.jpg",
+  "gallery": [
+    "../images/plants/amla.jpg",
+    "../images/plants/amla-2.jpg",
+    "../images/plants/amla-3.jpg"
+  ],
+  "description": "Amla, or Indian Gooseberry, is one of Ayurveda's richest natural sources of Vitamin C and is highly regarded as a rejuvenating fruit.",
+  "uses": [
+    "Boosts immunity",
+    "Supports digestion",
+    "Promotes healthy skin",
+    "Supports hair health"
+  ],
+  "benefits": [
+    "Rich in Vitamin C",
+    "Powerful antioxidant",
+    "Supports metabolism",
+    "Promotes healthy ageing"
+  ],
+  "partsUsed": [
+    "Fruit"
+  ],
+  "preparation": [
+    "Fresh fruit",
+    "Juice",
+    "Powder",
+    "Pickle"
+  ],
+  "habitat": "Dry deciduous forests and tropical regions.",
+  "interestingFact": "Amla is one of the three ingredients in the famous Ayurvedic formulation Triphala.",
+  "research": "Research highlights its antioxidant and nutritional properties.",
+  "precautions": "Individuals taking diabetes medication should consult a healthcare professional before regular consumption.",
+  "page": "plants-profile.html?id=8"
+},
+{
+  "id": 9,
+  "name": "Moringa",
+  "botanical": "Moringa oleifera",
+  "family": "Moringaceae",
+  "category": "Trees",
+  "origin": "India",
+  "image": "../images/plants/moringa.jpg",
+  "gallery": [
+    "../images/plants/moringa.jpg",
+    "../images/plants/moringa-2.jpg",
+    "../images/plants/moringa-3.jpg"
+  ],
+  "description": "Moringa is known as the Miracle Tree because almost every part of the plant is traditionally used for nutrition and wellness.",
+  "uses": [
+    "Supports nutrition",
+    "Boosts immunity",
+    "Supports energy",
+    "Promotes healthy bones"
+  ],
+  "benefits": [
+    "Rich in vitamins",
+    "Rich in minerals",
+    "High antioxidant content",
+    "Supports overall wellness"
+  ],
+  "partsUsed": [
+    "Leaves",
+    "Pods",
+    "Seeds"
+  ],
+  "preparation": [
+    "Fresh leaves",
+    "Powder",
+    "Tea",
+    "Capsules"
+  ],
+  "habitat": "Warm tropical climates with well-drained soil.",
+  "interestingFact": "Moringa leaves contain significant amounts of protein and essential nutrients.",
+  "research": "Modern research investigates its nutritional and antioxidant potential.",
+  "precautions": "Pregnant women should consult a healthcare professional before consuming certain parts of the plant.",
+  "page": "plants-profile.html?id=9"
+},
+{
+  "id": 10,
+  "name": "Ginger",
+  "botanical": "Zingiber officinale",
+  "family": "Zingiberaceae",
+  "category": "Herbs",
+  "origin": "Southeast Asia",
+  "image": "../images/plants/ginger.jpg",
+  "gallery": [
+    "../images/plants/ginger.jpg",
+    "../images/plants/ginger-2.jpg",
+    "../images/plants/ginger-3.jpg"
+  ],
+  "description": "Ginger is a widely used medicinal rhizome in Ayurveda, valued for supporting digestion, circulation and overall wellness.",
+  "uses": [
+    "Supports digestion",
+    "Helps reduce nausea",
+    "Supports immunity",
+    "Promotes circulation"
+  ],
+  "benefits": [
+    "Natural antioxidant",
+    "Supports digestive health",
+    "May help reduce inflammation",
+    "Promotes overall wellbeing"
+  ],
+  "partsUsed": [
+    "Rhizome"
+  ],
+  "preparation": [
+    "Fresh root",
+    "Tea",
+    "Powder",
+    "Extract"
+  ],
+  "habitat": "Warm humid tropical climates with fertile soil.",
+  "interestingFact": "Ginger has been cultivated for over 5,000 years as both a spice and medicinal plant.",
+  "research": "Extensively researched for digestive support and antioxidant properties.",
+  "precautions": "People taking blood-thinning medication should consult a healthcare professional before regular use.",
+  "page": "plants-profile.html?id=10"
+}
+,
+{
+  "id": 11,
+  "name": "Garlic",
+  "botanical": "Allium sativum",
+  "family": "Amaryllidaceae",
+  "category": "Herbs",
+  "origin": "Central Asia",
+  "image": "../images/plants/garlic.jpg",
+  "gallery": [
+    "../images/plants/garlic.jpg",
+    "../images/plants/garlic-2.jpg",
+    "../images/plants/garlic-3.jpg"
+  ],
+  "description": "Garlic has been used in traditional medicine for thousands of years and is valued for supporting cardiovascular and immune health.",
+  "uses": [
+    "Supports heart health",
+    "Boosts immunity",
+    "Supports circulation",
+    "Promotes digestive wellness"
+  ],
+  "benefits": [
+    "Rich in sulfur compounds",
+    "Natural antioxidant",
+    "Supports healthy cholesterol",
+    "May help maintain healthy blood pressure"
+  ],
+  "partsUsed": [
+    "Bulb"
+  ],
+  "preparation": [
+    "Fresh cloves",
+    "Powder",
+    "Oil",
+    "Capsules"
+  ],
+  "habitat": "Temperate climates with fertile, well-drained soil.",
+  "interestingFact": "Ancient civilizations used garlic as both food and medicine.",
+  "research": "Modern research focuses on allicin and cardiovascular health.",
+  "precautions": "Consult a healthcare professional if taking blood-thinning medication.",
+  "page": "plants-profile.html?id=11"
+},
+{
+  "id": 12,
+  "name": "Licorice",
+  "botanical": "Glycyrrhiza glabra",
+  "family": "Fabaceae",
+  "category": "Herbs",
+  "origin": "Southern Europe and Western Asia",
+  "image": "../images/plants/licorice.jpg",
+  "gallery": [
+    "../images/plants/licorice.jpg",
+    "../images/plants/licorice-2.jpg",
+    "../images/plants/licorice-3.jpg"
+  ],
+  "description": "Licorice root has long been used in Ayurveda to soothe the respiratory and digestive systems.",
+  "uses": [
+    "Supports throat health",
+    "Supports digestion",
+    "Promotes respiratory wellness",
+    "Supports immunity"
+  ],
+  "benefits": [
+    "Natural soothing properties",
+    "Rich in antioxidants",
+    "Supports stomach health",
+    "May help reduce irritation"
+  ],
+  "partsUsed": [
+    "Root"
+  ],
+  "preparation": [
+    "Tea",
+    "Powder",
+    "Extract",
+    "Capsules"
+  ],
+  "habitat": "Warm temperate climates with fertile soil.",
+  "interestingFact": "Licorice root is naturally much sweeter than sugar.",
+  "research": "Studied for digestive and respiratory support.",
+  "precautions": "Avoid excessive intake, especially with high blood pressure.",
+  "page": "plants-profile.html?id=12"
+},
+{
+  "id": 13,
+  "name": "Cinnamon",
+  "botanical": "Cinnamomum verum",
+  "family": "Lauraceae",
+  "category": "Trees",
+  "origin": "Sri Lanka",
+  "image": "../images/plants/cinnamon.jpg",
+  "gallery": [
+    "../images/plants/cinnamon.jpg",
+    "../images/plants/cinnamon-2.jpg",
+    "../images/plants/cinnamon-3.jpg"
+  ],
+  "description": "Cinnamon is an aromatic spice traditionally valued for digestive support and warming properties.",
+  "uses": [
+    "Supports digestion",
+    "Supports metabolism",
+    "Boosts immunity",
+    "Promotes circulation"
+  ],
+  "benefits": [
+    "Rich in antioxidants",
+    "Natural warming herb",
+    "Supports metabolic health",
+    "Pleasant aroma"
+  ],
+  "partsUsed": [
+    "Inner Bark"
+  ],
+  "preparation": [
+    "Powder",
+    "Tea",
+    "Essential Oil",
+    "Whole Bark"
+  ],
+  "habitat": "Humid tropical forests.",
+  "interestingFact": "True Cinnamon is harvested from the inner bark of young trees.",
+  "research": "Studied for antioxidant and metabolic support.",
+  "precautions": "Consume in moderation.",
+  "page": "plants-profile.html?id=13"
+},
+{
+  "id": 14,
+  "name": "Clove",
+  "botanical": "Syzygium aromaticum",
+  "family": "Myrtaceae",
+  "category": "Trees",
+  "origin": "Indonesia",
+  "image": "../images/plants/clove.jpg",
+  "gallery": [
+    "../images/plants/clove.jpg",
+    "../images/plants/clove-2.jpg",
+    "../images/plants/clove-3.jpg"
+  ],
+  "description": "Clove flower buds are widely used in Ayurveda for oral health and digestive wellness.",
+  "uses": [
+    "Supports oral hygiene",
+    "Supports digestion",
+    "Freshens breath",
+    "Supports immunity"
+  ],
+  "benefits": [
+    "Rich in eugenol",
+    "Natural antioxidant",
+    "Supports healthy gums",
+    "Traditional warming spice"
+  ],
+  "partsUsed": [
+    "Flower Bud"
+  ],
+  "preparation": [
+    "Whole Cloves",
+    "Powder",
+    "Oil",
+    "Tea"
+  ],
+  "habitat": "Humid tropical climates.",
+  "interestingFact": "Each clove is actually an unopened flower bud.",
+  "research": "Widely researched for oral health applications.",
+  "precautions": "Essential oil should be diluted before topical use.",
+  "page": "plants-profile.html?id=14"
+},
+{
+  "id": 15,
+  "name": "Black Pepper",
+  "botanical": "Piper nigrum",
+  "family": "Piperaceae",
+  "category": "Climbers",
+  "origin": "India",
+  "image": "../images/plants/black-pepper.jpg",
+  "gallery": [
+    "../images/plants/black-pepper.jpg",
+    "../images/plants/black-pepper-2.jpg",
+    "../images/plants/black-pepper-3.jpg"
+  ],
+  "description": "Known as the 'King of Spices', Black Pepper has been used in Ayurveda to enhance digestion and improve the absorption of nutrients.",
+  "uses": [
+    "Supports digestion",
+    "Improves nutrient absorption",
+    "Supports respiratory health",
+    "Boosts metabolism"
+  ],
+  "benefits": [
+    "Contains piperine",
+    "Natural antioxidant",
+    "Supports digestive enzymes",
+    "Enhances bioavailability of herbs"
+  ],
+  "partsUsed": [
+    "Fruit"
+  ],
+  "preparation": [
+    "Whole Peppercorns",
+    "Powder",
+    "Extract"
+  ],
+  "habitat": "Warm humid tropical forests.",
+  "interestingFact": "Black pepper was once so valuable it was used as currency.",
+  "research": "Piperine has been studied for improving nutrient absorption.",
+  "precautions": "Consume in moderation if experiencing gastric irritation.",
+  "page": "plants-profile.html?id=15"
+}
+,
+{
+  "id": 16,
+  "name": "Cardamom",
+  "botanical": "Elettaria cardamomum",
+  "family": "Zingiberaceae",
+  "category": "Herbs",
+  "origin": "India",
+  "image": "../images/plants/cardamom.jpg",
+  "gallery": [
+    "../images/plants/cardamom.jpg",
+    "../images/plants/cardamom-2.jpg",
+    "../images/plants/cardamom-3.jpg"
+  ],
+  "description": "Cardamom is known as the 'Queen of Spices' and has been treasured in Ayurveda for its aromatic flavor and digestive benefits.",
+  "uses": [
+    "Supports digestion",
+    "Freshens breath",
+    "Supports respiratory wellness",
+    "Promotes metabolism"
+  ],
+  "benefits": [
+    "Rich in antioxidants",
+    "Natural digestive aid",
+    "Supports oral health",
+    "Aromatic herb"
+  ],
+  "partsUsed": [
+    "Seeds"
+  ],
+  "preparation": [
+    "Whole Pods",
+    "Powder",
+    "Tea",
+    "Extract"
+  ],
+  "habitat": "Humid tropical forests with rich fertile soil.",
+  "interestingFact": "Cardamom is the world's third most expensive spice after saffron and vanilla.",
+  "research": "Modern studies investigate its antioxidant and digestive-support properties.",
+  "precautions": "Generally considered safe when consumed in moderate amounts.",
+  "page": "plants-profile.html?id=16"
+},
+{
+  "id": 17,
+  "name": "Lemongrass",
+  "botanical": "Cymbopogon citratus",
+  "family": "Poaceae",
+  "category": "Grasses",
+  "origin": "South Asia",
+  "image": "../images/plants/lemongrass.jpg",
+  "gallery": [
+    "../images/plants/lemongrass.jpg",
+    "../images/plants/lemongrass-2.jpg",
+    "../images/plants/lemongrass-3.jpg"
+  ],
+  "description": "Lemongrass is an aromatic medicinal grass commonly used in Ayurveda for its refreshing properties and wellness benefits.",
+  "uses": [
+    "Supports digestion",
+    "Promotes relaxation",
+    "Supports immunity",
+    "Freshens the body"
+  ],
+  "benefits": [
+    "Rich in essential oils",
+    "Natural antioxidant",
+    "Refreshing aroma",
+    "Supports digestive comfort"
+  ],
+  "partsUsed": [
+    "Leaves",
+    "Stalk"
+  ],
+  "preparation": [
+    "Tea",
+    "Essential Oil",
+    "Fresh Leaves",
+    "Extract"
+  ],
+  "habitat": "Warm tropical climates with abundant rainfall.",
+  "interestingFact": "Lemongrass oil is widely used in aromatherapy.",
+  "research": "Research focuses on antioxidant and antimicrobial compounds.",
+  "precautions": "Essential oil should always be diluted before topical application.",
+  "page": "plants-profile.html?id=17"
+},
+{
+  "id": 18,
+  "name": "Hibiscus",
+  "botanical": "Hibiscus rosa-sinensis",
+  "family": "Malvaceae",
+  "category": "Shrubs",
+  "origin": "East Asia",
+  "image": "../images/plants/hibiscus.jpg",
+  "gallery": [
+    "../images/plants/hibiscus.jpg",
+    "../images/plants/hibiscus-2.jpg",
+    "../images/plants/hibiscus-3.jpg"
+  ],
+  "description": "Hibiscus flowers have long been used in Ayurveda to support healthy hair, skin and cardiovascular wellness.",
+  "uses": [
+    "Supports healthy hair",
+    "Supports skin",
+    "Promotes heart wellness",
+    "Supports hydration"
+  ],
+  "benefits": [
+    "Rich in antioxidants",
+    "Natural cooling herb",
+    "Supports hair growth",
+    "Rich in Vitamin C"
+  ],
+  "partsUsed": [
+    "Flowers",
+    "Leaves"
+  ],
+  "preparation": [
+    "Tea",
+    "Hair Oil",
+    "Paste",
+    "Powder"
+  ],
+  "habitat": "Warm tropical and subtropical regions.",
+  "interestingFact": "Hibiscus flowers are commonly used to prepare herbal teas around the world.",
+  "research": "Modern studies investigate its antioxidant and cardiovascular-support properties.",
+  "precautions": "Individuals taking blood pressure medication should seek medical advice before regular consumption.",
+  "page": "plants-profile.html?id=18"
+},
+{
+  "id": 19,
+  "name": "Fenugreek",
+  "botanical": "Trigonella foenum-graecum",
+  "family": "Fabaceae",
+  "category": "Herbs",
+  "origin": "Mediterranean Region",
+  "image": "../images/plants/fenugreek.jpg",
+  "gallery": [
+    "../images/plants/fenugreek.jpg",
+    "../images/plants/fenugreek-2.jpg",
+    "../images/plants/fenugreek-3.jpg"
+  ],
+  "description": "Fenugreek is widely used in Ayurvedic nutrition for supporting metabolism, digestion and overall vitality.",
+  "uses": [
+    "Supports digestion",
+    "Supports metabolism",
+    "Promotes healthy hair",
+    "Supports lactation"
+  ],
+  "benefits": [
+    "Rich in dietary fiber",
+    "Supports digestive health",
+    "Rich in minerals",
+    "Traditional tonic"
+  ],
+  "partsUsed": [
+    "Seeds",
+    "Leaves"
+  ],
+  "preparation": [
+    "Powder",
+    "Sprouts",
+    "Tea",
+    "Whole Seeds"
+  ],
+  "habitat": "Temperate and subtropical climates.",
+  "interestingFact": "Fenugreek has been cultivated for over 6,000 years.",
+  "research": "Current studies investigate its nutritional and metabolic benefits.",
+  "precautions": "Pregnant women should consult a healthcare professional before medicinal use.",
+  "page": "plants-profile.html?id=19"
+},
+{
+  "id": 20,
+  "name": "Mint",
+  "botanical": "Mentha spicata",
+  "family": "Lamiaceae",
+  "category": "Herbs",
+  "origin": "Europe and Asia",
+  "image": "../images/plants/mint.jpg",
+  "gallery": [
+    "../images/plants/mint.jpg",
+    "../images/plants/mint-2.jpg",
+    "../images/plants/mint-3.jpg"
+  ],
+  "description": "Mint is a refreshing medicinal herb traditionally used to support digestion, cooling and respiratory comfort.",
+  "uses": [
+    "Supports digestion",
+    "Freshens breath",
+    "Promotes cooling",
+    "Supports respiratory health"
+  ],
+  "benefits": [
+    "Cooling herb",
+    "Rich in essential oils",
+    "Supports digestive comfort",
+    "Refreshing aroma"
+  ],
+  "partsUsed": [
+    "Leaves"
+  ],
+  "preparation": [
+    "Fresh Leaves",
+    "Tea",
+    "Essential Oil",
+    "Extract"
+  ],
+  "habitat": "Moist fertile soils in temperate climates.",
+  "interestingFact": "There are more than 25 recognized species of mint worldwide.",
+  "research": "Peppermint and spearmint continue to be studied for digestive and respiratory wellness.",
+  "precautions": "Essential oil should be used only as directed.",
+  "page": "plants-profile.html?id=20"
+}
+,
+{
+  "id": 21,
+  "name": "Curry Leaves",
+  "botanical": "Murraya koenigii",
+  "family": "Rutaceae",
+  "category": "Trees",
+  "origin": "India",
+  "image": "../images/plants/curry-leaves.jpg",
+  "gallery": [
+    "../images/plants/curry-leaves.jpg",
+    "../images/plants/curry-leaves-2.jpg",
+    "../images/plants/curry-leaves-3.jpg"
+  ],
+  "description": "Curry Leaves are an essential ingredient in Indian cuisine and have long been valued in Ayurveda for supporting digestion, metabolism and healthy hair.",
+  "uses": [
+    "Supports digestion",
+    "Supports healthy hair",
+    "Promotes metabolism",
+    "Supports eye health"
+  ],
+  "benefits": [
+    "Rich in antioxidants",
+    "Source of iron and calcium",
+    "Supports healthy skin",
+    "Promotes overall wellness"
+  ],
+  "partsUsed": [
+    "Leaves"
+  ],
+  "preparation": [
+    "Fresh Leaves",
+    "Powder",
+    "Tea",
+    "Extract"
+  ],
+  "habitat": "Warm tropical climates with fertile soil.",
+  "interestingFact": "Fresh curry leaves lose much of their aroma once dried.",
+  "research": "Research investigates antioxidant and nutritional benefits.",
+  "precautions": "Generally safe when consumed as food.",
+  "page": "plants-profile.html?id=21"
+},
+{
+  "id": 22,
+  "name": "Bael",
+  "botanical": "Aegle marmelos",
+  "family": "Rutaceae",
+  "category": "Trees",
+  "origin": "India",
+  "image": "../images/plants/bael.jpg",
+  "gallery": [
+    "../images/plants/bael.jpg",
+    "../images/plants/bael-2.jpg",
+    "../images/plants/bael-3.jpg"
+  ],
+  "description": "Bael is considered sacred in India and has traditionally been used to support digestive wellness.",
+  "uses": [
+    "Supports digestion",
+    "Supports gut health",
+    "Supports immunity",
+    "Cooling fruit"
+  ],
+  "benefits": [
+    "Rich in fiber",
+    "Natural antioxidant",
+    "Supports stomach comfort",
+    "Traditional Ayurvedic fruit"
+  ],
+  "partsUsed": [
+    "Fruit",
+    "Leaves",
+    "Root"
+  ],
+  "preparation": [
+    "Fresh Fruit",
+    "Juice",
+    "Powder",
+    "Decoction"
+  ],
+  "habitat": "Dry forests and tropical regions.",
+  "interestingFact": "Bael leaves are traditionally offered during worship of Lord Shiva.",
+  "research": "Modern studies explore digestive and antioxidant properties.",
+  "precautions": "Consume ripe fruit in moderation.",
+  "page": "plants-profile.html?id=22"
+},
+{
+  "id": 23,
+  "name": "Arjuna",
+  "botanical": "Terminalia arjuna",
+  "family": "Combretaceae",
+  "category": "Trees",
+  "origin": "India",
+  "image": "../images/plants/arjuna.jpg",
+  "gallery": [
+    "../images/plants/arjuna.jpg",
+    "../images/plants/arjuna-2.jpg",
+    "../images/plants/arjuna-3.jpg"
+  ],
+  "description": "Arjuna bark has been valued for centuries in Ayurveda as a traditional herb supporting cardiovascular wellness.",
+  "uses": [
+    "Supports heart health",
+    "Supports circulation",
+    "Supports stamina",
+    "Promotes vitality"
+  ],
+  "benefits": [
+    "Rich in flavonoids",
+    "Natural antioxidant",
+    "Supports cardiovascular wellness",
+    "Traditional rejuvenating herb"
+  ],
+  "partsUsed": [
+    "Bark"
+  ],
+  "preparation": [
+    "Powder",
+    "Tea",
+    "Decoction",
+    "Capsules"
+  ],
+  "habitat": "Riverbanks and moist forests.",
+  "interestingFact": "The tree is named after the legendary warrior Arjuna from the Mahabharata.",
+  "research": "Modern studies focus on cardiovascular support.",
+  "precautions": "Consult a healthcare professional if taking heart medication.",
+  "page": "plants-profile.html?id=23"
+},
+{
+  "id": 24,
+  "name": "Shatavari",
+  "botanical": "Asparagus racemosus",
+  "family": "Asparagaceae",
+  "category": "Climbers",
+  "origin": "India",
+  "image": "../images/plants/shatavari.jpg",
+  "gallery": [
+    "../images/plants/shatavari.jpg",
+    "../images/plants/shatavari-2.jpg",
+    "../images/plants/shatavari-3.jpg"
+  ],
+  "description": "Shatavari is one of Ayurveda's most respected rejuvenating herbs, traditionally used to support vitality and women's wellness.",
+  "uses": [
+    "Supports vitality",
+    "Supports women's health",
+    "Promotes digestion",
+    "Supports immunity"
+  ],
+  "benefits": [
+    "Adaptogenic herb",
+    "Rich in natural compounds",
+    "Supports reproductive wellness",
+    "Promotes overall balance"
+  ],
+  "partsUsed": [
+    "Root"
+  ],
+  "preparation": [
+    "Powder",
+    "Capsules",
+    "Tea",
+    "Extract"
+  ],
+  "habitat": "Tropical forests and grasslands.",
+  "interestingFact": "The name Shatavari means 'She who possesses a hundred husbands'.",
+  "research": "Research explores adaptogenic and reproductive health properties.",
+  "precautions": "Consult a healthcare professional before medicinal use during pregnancy.",
+  "page": "plants-profile.html?id=24"
+},
+{
+  "id": 25,
+  "name": "Guduchi",
+  "botanical": "Tinospora cordifolia",
+  "family": "Menispermaceae",
+  "category": "Climbers",
+  "origin": "India",
+  "image": "../images/plants/guduchi.jpg",
+  "gallery": [
+    "../images/plants/guduchi.jpg",
+    "../images/plants/guduchi-2.jpg",
+    "../images/plants/guduchi-3.jpg"
+  ],
+  "description": "Guduchi is a highly regarded rejuvenating vine in Ayurveda and is traditionally used to promote immunity and longevity.",
+  "uses": [
+    "Supports immunity",
+    "Supports metabolism",
+    "Promotes vitality",
+    "Supports digestion"
+  ],
+  "benefits": [
+    "Natural adaptogen",
+    "Rich in antioxidants",
+    "Supports liver health",
+    "Traditional rejuvenating herb"
+  ],
+  "partsUsed": [
+    "Stem",
+    "Leaves"
+  ],
+  "preparation": [
+    "Juice",
+    "Powder",
+    "Decoction",
+    "Capsules"
+  ],
+  "habitat": "Tropical forests where it grows as a climbing vine.",
+  "interestingFact": "Guduchi and Giloy refer to the same medicinal plant in Ayurveda.",
+  "research": "Widely studied for immune-supporting phytochemicals.",
+  "precautions": "Consult a healthcare professional before prolonged medicinal use.",
+  "page": "plants-profile.html?id=25"
+}
+,
+{
+  "id": 26,
+  "name": "Saffron",
+  "botanical": "Crocus sativus",
+  "family": "Iridaceae",
+  "category": "Flowers",
+  "origin": "Iran and Kashmir",
+  "image": "../images/plants/saffron.jpg",
+  "gallery": [
+    "../images/plants/saffron.jpg",
+    "../images/plants/saffron-2.jpg",
+    "../images/plants/saffron-3.jpg"
+  ],
+  "description": "Saffron is one of the world's most valuable medicinal spices, traditionally used in Ayurveda to promote vitality, mood, and overall wellness.",
+  "uses": [
+    "Supports mood",
+    "Promotes healthy skin",
+    "Supports memory",
+    "Enhances vitality"
+  ],
+  "benefits": [
+    "Rich in antioxidants",
+    "Contains crocin and safranal",
+    "Supports eye health",
+    "Traditional rejuvenating herb"
+  ],
+  "partsUsed": [
+    "Flower Stigma"
+  ],
+  "preparation": [
+    "Threads",
+    "Powder",
+    "Infusion",
+    "Milk"
+  ],
+  "habitat": "Cool temperate climates with well-drained soil.",
+  "interestingFact": "Over 150,000 flowers are required to produce one kilogram of saffron.",
+  "research": "Modern studies investigate mood-supporting and antioxidant properties.",
+  "precautions": "Consume only in moderate quantities.",
+  "page": "plants-profile.html?id=26"
+},
+{
+  "id": 27,
+  "name": "Indian Gooseberry",
+  "botanical": "Phyllanthus emblica",
+  "family": "Phyllanthaceae",
+  "category": "Trees",
+  "origin": "India",
+  "image": "../images/plants/indian-gooseberry.jpg",
+  "gallery": [
+    "../images/plants/indian-gooseberry.jpg",
+    "../images/plants/indian-gooseberry-2.jpg",
+    "../images/plants/indian-gooseberry-3.jpg"
+  ],
+  "description": "Indian Gooseberry, commonly known as Amla, is one of Ayurveda's most important rejuvenating fruits.",
+  "uses": [
+    "Supports immunity",
+    "Promotes digestion",
+    "Supports hair health",
+    "Supports healthy ageing"
+  ],
+  "benefits": [
+    "Rich in Vitamin C",
+    "Powerful antioxidant",
+    "Supports metabolism",
+    "Promotes collagen production"
+  ],
+  "partsUsed": [
+    "Fruit"
+  ],
+  "preparation": [
+    "Fresh Fruit",
+    "Juice",
+    "Powder",
+    "Candy"
+  ],
+  "habitat": "Dry tropical forests.",
+  "interestingFact": "Amla is one of the three ingredients of Triphala.",
+  "research": "Widely studied for antioxidant and nutritional benefits.",
+  "precautions": "Consult a physician if managing blood sugar medication.",
+  "page": "plants-profile.html?id=27"
+},
+{
+  "id": 28,
+  "name": "Sandalwood",
+  "botanical": "Santalum album",
+  "family": "Santalaceae",
+  "category": "Trees",
+  "origin": "India",
+  "image": "../images/plants/sandalwood.jpg",
+  "gallery": [
+    "../images/plants/sandalwood.jpg",
+    "../images/plants/sandalwood-2.jpg",
+    "../images/plants/sandalwood-3.jpg"
+  ],
+  "description": "Sandalwood is renowned for its cooling fragrance and has been used in Ayurveda, meditation and skincare for centuries.",
+  "uses": [
+    "Supports skin health",
+    "Promotes relaxation",
+    "Cooling applications",
+    "Traditional aromatherapy"
+  ],
+  "benefits": [
+    "Natural fragrance",
+    "Cooling properties",
+    "Rich in essential oils",
+    "Supports healthy skin"
+  ],
+  "partsUsed": [
+    "Heartwood",
+    "Oil"
+  ],
+  "preparation": [
+    "Paste",
+    "Essential Oil",
+    "Powder"
+  ],
+  "habitat": "Dry tropical forests.",
+  "interestingFact": "Indian Sandalwood is among the world's most valuable woods.",
+  "research": "Studied for aromatic and skin-supporting compounds.",
+  "precautions": "Use essential oil only after proper dilution.",
+  "page": "plants-profile.html?id=28"
+},
+{
+  "id": 29,
+  "name": "Drumstick",
+  "botanical": "Moringa oleifera",
+  "family": "Moringaceae",
+  "category": "Trees",
+  "origin": "India",
+  "image": "../images/plants/drumstick.jpg",
+  "gallery": [
+    "../images/plants/drumstick.jpg",
+    "../images/plants/drumstick-2.jpg",
+    "../images/plants/drumstick-3.jpg"
+  ],
+  "description": "The Drumstick Tree is commonly known as the Miracle Tree because nearly every part is edible and nutritionally valuable.",
+  "uses": [
+    "Supports nutrition",
+    "Supports immunity",
+    "Promotes bone health",
+    "Supports metabolism"
+  ],
+  "benefits": [
+    "High protein leaves",
+    "Rich in calcium",
+    "Rich in iron",
+    "Natural antioxidants"
+  ],
+  "partsUsed": [
+    "Leaves",
+    "Pods",
+    "Seeds"
+  ],
+  "preparation": [
+    "Fresh Leaves",
+    "Vegetable",
+    "Powder",
+    "Tea"
+  ],
+  "habitat": "Warm tropical climates.",
+  "interestingFact": "Almost every part of the Moringa tree is usable.",
+  "research": "Studied extensively for nutritional benefits.",
+  "precautions": "Consume medicinal quantities only under professional guidance.",
+  "page": "plants-profile.html?id=29"
+},
+{
+  "id": 30,
+  "name": "Holy Lotus",
+  "botanical": "Nelumbo nucifera",
+  "family": "Nelumbonaceae",
+  "category": "Aquatic Plants",
+  "origin": "India",
+  "image": "../images/plants/lotus.jpg",
+  "gallery": [
+    "../images/plants/lotus.jpg",
+    "../images/plants/lotus-2.jpg",
+    "../images/plants/lotus-3.jpg"
+  ],
+  "description": "The Sacred Lotus is revered throughout Asia and has significant importance in Ayurveda, spirituality and traditional wellness.",
+  "uses": [
+    "Supports relaxation",
+    "Cooling herb",
+    "Supports skin health",
+    "Promotes wellness"
+  ],
+  "benefits": [
+    "Rich in antioxidants",
+    "Traditional calming herb",
+    "Supports hydration",
+    "Beautiful ornamental flower"
+  ],
+  "partsUsed": [
+    "Flowers",
+    "Seeds",
+    "Rhizome",
+    "Leaves"
+  ],
+  "preparation": [
+    "Tea",
+    "Fresh Seeds",
+    "Paste",
+    "Powder"
+  ],
+  "habitat": "Freshwater lakes, ponds and wetlands.",
+  "interestingFact": "Lotus seeds can remain viable for more than 1,000 years.",
+  "research": "Modern research explores antioxidant and calming compounds.",
+  "precautions": "Generally considered safe when consumed traditionally.",
+  "page": "plants-profile.html?id=30"
+}
+,
+{
+  "id": 31,
+  "name": "Bhringraj",
+  "botanical": "Eclipta prostrata",
+  "family": "Asteraceae",
+  "category": "Herbs",
+  "origin": "India",
+  "image": "../images/plants/bhringraj.jpg",
+  "gallery": [
+    "../images/plants/bhringraj.jpg",
+    "../images/plants/bhringraj-2.jpg",
+    "../images/plants/bhringraj-3.jpg"
+  ],
+  "description": "Bhringraj is one of Ayurveda's most celebrated rejuvenating herbs, especially valued for supporting healthy hair, scalp, and liver function.",
+  "uses": [
+    "Supports hair growth",
+    "Promotes scalp health",
+    "Supports liver wellness",
+    "Supports healthy sleep"
+  ],
+  "benefits": [
+    "Rich in antioxidants",
+    "Traditional hair tonic",
+    "Supports healthy skin",
+    "Cooling herb"
+  ],
+  "partsUsed": [
+    "Whole Plant"
+  ],
+  "preparation": [
+    "Hair Oil",
+    "Powder",
+    "Tea",
+    "Extract"
+  ],
+  "habitat": "Moist tropical fields and wetlands.",
+  "interestingFact": "Bhringraj is commonly known as the 'King of Hair'.",
+  "research": "Research focuses on hair follicle support and liver health.",
+  "precautions": "Consult a healthcare professional before long-term medicinal use.",
+  "page": "plants-profile.html?id=31"
+},
+{
+  "id": 32,
+  "name": "Kalmegh",
+  "botanical": "Andrographis paniculata",
+  "family": "Acanthaceae",
+  "category": "Herbs",
+  "origin": "India",
+  "image": "../images/plants/kalmegh.jpg",
+  "gallery": [
+    "../images/plants/kalmegh.jpg",
+    "../images/plants/kalmegh-2.jpg",
+    "../images/plants/kalmegh-3.jpg"
+  ],
+  "description": "Kalmegh is a bitter medicinal herb traditionally used in Ayurveda for supporting immunity and liver function.",
+  "uses": [
+    "Supports immunity",
+    "Supports liver health",
+    "Supports digestion",
+    "Promotes detoxification"
+  ],
+  "benefits": [
+    "Rich in andrographolides",
+    "Natural antioxidant",
+    "Supports metabolism",
+    "Traditional detox herb"
+  ],
+  "partsUsed": [
+    "Leaves",
+    "Stem"
+  ],
+  "preparation": [
+    "Powder",
+    "Tea",
+    "Capsules",
+    "Extract"
+  ],
+  "habitat": "Warm tropical regions with moderate rainfall.",
+  "interestingFact": "Kalmegh is often called the 'King of Bitters'.",
+  "research": "Widely studied for immune-supporting phytochemicals.",
+  "precautions": "Avoid excessive use during pregnancy.",
+  "page": "plants-profile.html?id=32"
+},
+{
+  "id": 33,
+  "name": "Manjistha",
+  "botanical": "Rubia cordifolia",
+  "family": "Rubiaceae",
+  "category": "Climbers",
+  "origin": "India",
+  "image": "../images/plants/manjistha.jpg",
+  "gallery": [
+    "../images/plants/manjistha.jpg",
+    "../images/plants/manjistha-2.jpg",
+    "../images/plants/manjistha-3.jpg"
+  ],
+  "description": "Manjistha is traditionally used in Ayurveda to support healthy skin and natural detoxification.",
+  "uses": [
+    "Supports healthy skin",
+    "Supports blood purification",
+    "Promotes detoxification",
+    "Supports immunity"
+  ],
+  "benefits": [
+    "Natural antioxidant",
+    "Supports complexion",
+    "Traditional cleansing herb",
+    "Supports circulation"
+  ],
+  "partsUsed": [
+    "Root"
+  ],
+  "preparation": [
+    "Powder",
+    "Tea",
+    "Capsules",
+    "Extract"
+  ],
+  "habitat": "Mountain forests and tropical regions.",
+  "interestingFact": "Its roots have been used for centuries as a natural red dye.",
+  "research": "Current research explores antioxidant and skin-supporting compounds.",
+  "precautions": "Seek medical advice before prolonged medicinal use.",
+  "page": "plants-profile.html?id=33"
+},
+{
+  "id": 34,
+  "name": "Haritaki",
+  "botanical": "Terminalia chebula",
+  "family": "Combretaceae",
+  "category": "Trees",
+  "origin": "India",
+  "image": "../images/plants/haritaki.jpg",
+  "gallery": [
+    "../images/plants/haritaki.jpg",
+    "../images/plants/haritaki-2.jpg",
+    "../images/plants/haritaki-3.jpg"
+  ],
+  "description": "Haritaki is one of Ayurveda's most revered rejuvenating fruits and forms an important ingredient of Triphala.",
+  "uses": [
+    "Supports digestion",
+    "Supports gut health",
+    "Supports immunity",
+    "Promotes longevity"
+  ],
+  "benefits": [
+    "Rich in tannins",
+    "Natural antioxidant",
+    "Supports metabolism",
+    "Traditional rejuvenator"
+  ],
+  "partsUsed": [
+    "Fruit"
+  ],
+  "preparation": [
+    "Powder",
+    "Tea",
+    "Capsules"
+  ],
+  "habitat": "Tropical deciduous forests.",
+  "interestingFact": "Haritaki is often called the 'King of Medicines' in Ayurveda.",
+  "research": "Modern studies investigate antioxidant and digestive properties.",
+  "precautions": "Avoid excessive medicinal use during pregnancy.",
+  "page": "plants-profile.html?id=34"
+},
+{
+  "id": 35,
+  "name": "Bibhitaki",
+  "botanical": "Terminalia bellirica",
+  "family": "Combretaceae",
+  "category": "Trees",
+  "origin": "India",
+  "image": "../images/plants/bibhitaki.jpg",
+  "gallery": [
+    "../images/plants/bibhitaki.jpg",
+    "../images/plants/bibhitaki-2.jpg",
+    "../images/plants/bibhitaki-3.jpg"
+  ],
+  "description": "Bibhitaki is another important fruit in Triphala and has traditionally been used to support respiratory and digestive wellness.",
+  "uses": [
+    "Supports digestion",
+    "Supports respiratory health",
+    "Supports immunity",
+    "Promotes detoxification"
+  ],
+  "benefits": [
+    "Rich in antioxidants",
+    "Traditional rejuvenator",
+    "Supports metabolism",
+    "Supports healthy ageing"
+  ],
+  "partsUsed": [
+    "Fruit"
+  ],
+  "preparation": [
+    "Powder",
+    "Tea",
+    "Capsules"
+  ],
+  "habitat": "Moist tropical forests.",
+  "interestingFact": "Bibhitaki is one of the three fruits that make up Triphala.",
+  "research": "Current studies explore antioxidant and digestive benefits.",
+  "precautions": "Use medicinally only under professional guidance.",
+  "page": "plants-profile.html?id=35"
+}
+,
+{
+  "id": 36,
+  "name": "Triphala",
+  "botanical": "Traditional Ayurvedic Blend",
+  "family": "Ayurvedic Formulation",
+  "category": "Formulations",
+  "origin": "India",
+  "image": "../images/plants/triphala.jpg",
+  "gallery": [
+    "../images/plants/triphala.jpg",
+    "../images/plants/triphala-2.jpg",
+    "../images/plants/triphala-3.jpg"
+  ],
+  "description": "Triphala is a classical Ayurvedic formulation consisting of Haritaki, Bibhitaki and Amla. It is traditionally used to promote digestion, detoxification and overall vitality.",
+  "uses": [
+    "Supports digestion",
+    "Supports gut health",
+    "Promotes detoxification",
+    "Supports immunity"
+  ],
+  "benefits": [
+    "Rich in antioxidants",
+    "Supports digestive balance",
+    "Traditional rejuvenator",
+    "Promotes overall wellness"
+  ],
+  "partsUsed": [
+    "Dried Fruits"
+  ],
+  "preparation": [
+    "Powder",
+    "Capsules",
+    "Tea"
+  ],
+  "habitat": "Prepared from three medicinal fruits.",
+  "interestingFact": "Triphala has been used in Ayurveda for more than 2,000 years.",
+  "research": "Modern studies investigate its antioxidant and digestive-support properties.",
+  "precautions": "Consume under professional guidance for long-term medicinal use.",
+  "page": "plants-profile.html?id=36"
+},
+{
+  "id": 37,
+  "name": "Yashtimadhu",
+  "botanical": "Glycyrrhiza glabra",
+  "family": "Fabaceae",
+  "category": "Herbs",
+  "origin": "Asia",
+  "image": "../images/plants/yashtimadhu.jpg",
+  "gallery": [
+    "../images/plants/yashtimadhu.jpg",
+    "../images/plants/yashtimadhu-2.jpg",
+    "../images/plants/yashtimadhu-3.jpg"
+  ],
+  "description": "Yashtimadhu, commonly known as Licorice, is traditionally valued for respiratory and digestive wellness.",
+  "uses": [
+    "Supports throat health",
+    "Supports digestion",
+    "Supports respiratory wellness",
+    "Promotes immunity"
+  ],
+  "benefits": [
+    "Natural soothing herb",
+    "Rich in antioxidants",
+    "Supports healthy mucous membranes",
+    "Traditional Ayurvedic tonic"
+  ],
+  "partsUsed": [
+    "Root"
+  ],
+  "preparation": [
+    "Tea",
+    "Powder",
+    "Extract",
+    "Capsules"
+  ],
+  "habitat": "Temperate climates.",
+  "interestingFact": "Yashtimadhu is naturally sweeter than sugar.",
+  "research": "Widely researched for digestive and respiratory support.",
+  "precautions": "Avoid excessive intake if managing hypertension.",
+  "page": "plants-profile.html?id=37"
+},
+{
+  "id": 38,
+  "name": "Shankhpushpi",
+  "botanical": "Convolvulus pluricaulis",
+  "family": "Convolvulaceae",
+  "category": "Herbs",
+  "origin": "India",
+  "image": "../images/plants/shankhpushpi.jpg",
+  "gallery": [
+    "../images/plants/shankhpushpi.jpg",
+    "../images/plants/shankhpushpi-2.jpg",
+    "../images/plants/shankhpushpi-3.jpg"
+  ],
+  "description": "Shankhpushpi is traditionally used to support memory, concentration and mental wellbeing.",
+  "uses": [
+    "Supports memory",
+    "Improves concentration",
+    "Promotes relaxation",
+    "Supports learning"
+  ],
+  "benefits": [
+    "Supports cognitive wellness",
+    "Traditional brain tonic",
+    "Rich in antioxidants",
+    "Promotes calmness"
+  ],
+  "partsUsed": [
+    "Whole Plant"
+  ],
+  "preparation": [
+    "Syrup",
+    "Powder",
+    "Tea",
+    "Capsules"
+  ],
+  "habitat": "Grasslands and tropical plains.",
+  "interestingFact": "Its flowers resemble a conch shell, giving the herb its name.",
+  "research": "Current studies investigate cognitive-support properties.",
+  "precautions": "Consult a healthcare professional before prolonged medicinal use.",
+  "page": "plants-profile.html?id=38"
+},
+{
+  "id": 39,
+  "name": "Punarnava",
+  "botanical": "Boerhavia diffusa",
+  "family": "Nyctaginaceae",
+  "category": "Herbs",
+  "origin": "India",
+  "image": "../images/plants/punarnava.jpg",
+  "gallery": [
+    "../images/plants/punarnava.jpg",
+    "../images/plants/punarnava-2.jpg",
+    "../images/plants/punarnava-3.jpg"
+  ],
+  "description": "Punarnava is a rejuvenating herb traditionally used in Ayurveda to support kidney and liver wellness.",
+  "uses": [
+    "Supports kidney health",
+    "Supports liver health",
+    "Promotes detoxification",
+    "Supports metabolism"
+  ],
+  "benefits": [
+    "Natural antioxidant",
+    "Supports fluid balance",
+    "Traditional rejuvenator",
+    "Supports vitality"
+  ],
+  "partsUsed": [
+    "Root",
+    "Leaves"
+  ],
+  "preparation": [
+    "Powder",
+    "Tea",
+    "Extract",
+    "Capsules"
+  ],
+  "habitat": "Warm tropical grasslands.",
+  "interestingFact": "Punarnava means 'renewed again' in Sanskrit.",
+  "research": "Research investigates renal-support compounds.",
+  "precautions": "Use medicinally under professional guidance.",
+  "page": "plants-profile.html?id=39"
+},
+{
+  "id": 40,
+  "name": "Vacha",
+  "botanical": "Acorus calamus",
+  "family": "Acoraceae",
+  "category": "Aquatic Plants",
+  "origin": "India",
+  "image": "../images/plants/vacha.jpg",
+  "gallery": [
+    "../images/plants/vacha.jpg",
+    "../images/plants/vacha-2.jpg",
+    "../images/plants/vacha-3.jpg"
+  ],
+  "description": "Vacha is an aromatic marsh plant traditionally used to support speech, memory and cognitive function.",
+  "uses": [
+    "Supports memory",
+    "Supports speech",
+    "Promotes digestion",
+    "Supports concentration"
+  ],
+  "benefits": [
+    "Traditional brain tonic",
+    "Natural aromatic herb",
+    "Supports digestion",
+    "Rich in essential oils"
+  ],
+  "partsUsed": [
+    "Rhizome"
+  ],
+  "preparation": [
+    "Powder",
+    "Extract",
+    "Tea"
+  ],
+  "habitat": "Wetlands, marshes and shallow freshwater bodies.",
+  "interestingFact": "Vacha has been mentioned in Ayurvedic texts for thousands of years.",
+  "research": "Modern studies investigate its neurological properties.",
+  "precautions": "Should only be used under qualified professional supervision.",
+  "page": "plants-profile.html?id=40"
+}
+,
+{
+  "id": 41,
+  "name": "Guggul",
+  "botanical": "Commiphora wightii",
+  "family": "Burseraceae",
+  "category": "Shrubs",
+  "origin": "India",
+  "image": "../images/plants/guggul.jpg",
+  "gallery": [
+    "../images/plants/guggul.jpg",
+    "../images/plants/guggul-2.jpg",
+    "../images/plants/guggul-3.jpg"
+  ],
+  "description": "Guggul is a resin-producing shrub traditionally used in Ayurveda to support joints, metabolism and cardiovascular wellness.",
+  "uses": [
+    "Supports joint health",
+    "Supports metabolism",
+    "Supports heart health",
+    "Promotes detoxification"
+  ],
+  "benefits": [
+    "Rich in guggulsterones",
+    "Natural antioxidant",
+    "Supports healthy cholesterol",
+    "Traditional rejuvenator"
+  ],
+  "partsUsed": [
+    "Resin"
+  ],
+  "preparation": [
+    "Powder",
+    "Capsules",
+    "Extract"
+  ],
+  "habitat": "Dry arid forests.",
+  "interestingFact": "Guggul resin has been used in Ayurveda for over 2,500 years.",
+  "research": "Modern studies investigate metabolic and cardiovascular support.",
+  "precautions": "Consult a physician before medicinal use.",
+  "page": "plants-profile.html?id=41"
+},
+{
+  "id": 42,
+  "name": "Nirgundi",
+  "botanical": "Vitex negundo",
+  "family": "Lamiaceae",
+  "category": "Shrubs",
+  "origin": "India",
+  "image": "../images/plants/nirgundi.jpg",
+  "gallery": [
+    "../images/plants/nirgundi.jpg",
+    "../images/plants/nirgundi-2.jpg",
+    "../images/plants/nirgundi-3.jpg"
+  ],
+  "description": "Nirgundi is traditionally valued for supporting muscles, joints and respiratory wellness.",
+  "uses": [
+    "Supports joints",
+    "Supports muscles",
+    "Supports respiratory health",
+    "Supports skin"
+  ],
+  "benefits": [
+    "Natural antioxidant",
+    "Traditional pain-support herb",
+    "Supports circulation",
+    "Supports mobility"
+  ],
+  "partsUsed": [
+    "Leaves",
+    "Seeds"
+  ],
+  "preparation": [
+    "Oil",
+    "Paste",
+    "Tea"
+  ],
+  "habitat": "Riverbanks and tropical forests.",
+  "interestingFact": "Its leaves are traditionally warmed and applied externally.",
+  "research": "Research explores anti-inflammatory phytochemicals.",
+  "precautions": "External medicinal use should follow professional guidance.",
+  "page": "plants-profile.html?id=42"
+},
+{
+  "id": 43,
+  "name": "Jatamansi",
+  "botanical": "Nardostachys jatamansi",
+  "family": "Caprifoliaceae",
+  "category": "Herbs",
+  "origin": "Himalayas",
+  "image": "../images/plants/jatamansi.jpg",
+  "gallery": [
+    "../images/plants/jatamansi.jpg",
+    "../images/plants/jatamansi-2.jpg",
+    "../images/plants/jatamansi-3.jpg"
+  ],
+  "description": "Jatamansi is a Himalayan herb traditionally used for relaxation and mental wellness.",
+  "uses": [
+    "Supports relaxation",
+    "Supports sleep",
+    "Supports memory",
+    "Supports emotional wellbeing"
+  ],
+  "benefits": [
+    "Natural calming herb",
+    "Traditional brain tonic",
+    "Rich in aromatic oils",
+    "Supports stress management"
+  ],
+  "partsUsed": [
+    "Rhizome"
+  ],
+  "preparation": [
+    "Powder",
+    "Tea",
+    "Oil",
+    "Capsules"
+  ],
+  "habitat": "High Himalayan alpine regions.",
+  "interestingFact": "Jatamansi grows above 3,000 metres.",
+  "research": "Research focuses on calming and neurological properties.",
+  "precautions": "Use only under professional supervision.",
+  "page": "plants-profile.html?id=43"
+},
+{
+  "id": 44,
+  "name": "Patha",
+  "botanical": "Cissampelos pareira",
+  "family": "Menispermaceae",
+  "category": "Climbers",
+  "origin": "India",
+  "image": "../images/plants/patha.jpg",
+  "gallery": [
+    "../images/plants/patha.jpg",
+    "../images/plants/patha-2.jpg",
+    "../images/plants/patha-3.jpg"
+  ],
+  "description": "Patha is a medicinal climbing plant traditionally used to support digestion and urinary wellness.",
+  "uses": [
+    "Supports digestion",
+    "Supports urinary health",
+    "Supports immunity",
+    "Traditional detox herb"
+  ],
+  "benefits": [
+    "Natural antioxidant",
+    "Traditional Ayurvedic herb",
+    "Supports wellness",
+    "Supports metabolism"
+  ],
+  "partsUsed": [
+    "Root"
+  ],
+  "preparation": [
+    "Tea",
+    "Powder",
+    "Extract"
+  ],
+  "habitat": "Tropical forests.",
+  "interestingFact": "Patha has been described in ancient Ayurvedic texts for centuries.",
+  "research": "Modern studies investigate its phytochemical composition.",
+  "precautions": "Use medicinally under guidance.",
+  "page": "plants-profile.html?id=44"
+},
+{
+  "id": 45,
+  "name": "Kachnar",
+  "botanical": "Bauhinia variegata",
+  "family": "Fabaceae",
+  "category": "Trees",
+  "origin": "India",
+  "image": "../images/plants/kachnar.jpg",
+  "gallery": [
+    "../images/plants/kachnar.jpg",
+    "../images/plants/kachnar-2.jpg",
+    "../images/plants/kachnar-3.jpg"
+  ],
+  "description": "Kachnar is a flowering tree valued in Ayurveda for supporting glandular and digestive wellness.",
+  "uses": [
+    "Supports digestion",
+    "Supports glandular health",
+    "Supports metabolism",
+    "Traditional tonic"
+  ],
+  "benefits": [
+    "Rich in flavonoids",
+    "Traditional Ayurvedic tree",
+    "Supports overall wellness",
+    "Beautiful ornamental tree"
+  ],
+  "partsUsed": [
+    "Bark",
+    "Flowers"
+  ],
+  "preparation": [
+    "Powder",
+    "Decoction"
+  ],
+  "habitat": "Subtropical forests.",
+  "interestingFact": "Its flowers resemble orchids.",
+  "research": "Research explores antioxidant properties.",
+  "precautions": "Consult a healthcare professional before medicinal use.",
+  "page": "plants-profile.html?id=45"
+},
+{
+  "id": 46,
+  "name": "Anantamul",
+  "botanical": "Hemidesmus indicus",
+  "family": "Apocynaceae",
+  "category": "Climbers",
+  "origin": "India",
+  "image": "../images/plants/anantamul.jpg",
+  "gallery": [
+    "../images/plants/anantamul.jpg",
+    "../images/plants/anantamul-2.jpg",
+    "../images/plants/anantamul-3.jpg"
+  ],
+  "description": "Anantamul is traditionally used as a cooling herb that supports healthy skin and natural detoxification.",
+  "uses": [
+    "Supports skin health",
+    "Supports detoxification",
+    "Supports immunity",
+    "Cooling herb"
+  ],
+  "benefits": [
+    "Natural antioxidant",
+    "Traditional blood purifier",
+    "Supports wellness",
+    "Pleasant aroma"
+  ],
+  "partsUsed": [
+    "Root"
+  ],
+  "preparation": [
+    "Tea",
+    "Powder",
+    "Extract"
+  ],
+  "habitat": "Tropical forests.",
+  "interestingFact": "Its roots possess a pleasant vanilla-like fragrance.",
+  "research": "Current studies investigate antioxidant activity.",
+  "precautions": "Consume medicinally under professional supervision.",
+  "page": "plants-profile.html?id=46"
+},
+{
+  "id": 47,
+  "name": "Chirata",
+  "botanical": "Swertia chirayita",
+  "family": "Gentianaceae",
+  "category": "Herbs",
+  "origin": "Himalayas",
+  "image": "../images/plants/chirata.jpg",
+  "gallery": [
+    "../images/plants/chirata.jpg",
+    "../images/plants/chirata-2.jpg",
+    "../images/plants/chirata-3.jpg"
+  ],
+  "description": "Chirata is one of Ayurveda's classic bitter herbs traditionally used to support digestion and immunity.",
+  "uses": [
+    "Supports digestion",
+    "Supports immunity",
+    "Supports liver wellness",
+    "Promotes detoxification"
+  ],
+  "benefits": [
+    "Natural bitter tonic",
+    "Traditional detox herb",
+    "Rich in antioxidants",
+    "Supports metabolism"
+  ],
+  "partsUsed": [
+    "Whole Plant"
+  ],
+  "preparation": [
+    "Tea",
+    "Powder",
+    "Extract"
+  ],
+  "habitat": "Himalayan slopes.",
+  "interestingFact": "Chirata is among Ayurveda's most bitter herbs.",
+  "research": "Modern studies explore antioxidant phytochemicals.",
+  "precautions": "Consume under qualified guidance.",
+  "page": "plants-profile.html?id=47"
+},
+{
+  "id": 48,
+  "name": "Vidanga",
+  "botanical": "Embelia ribes",
+  "family": "Primulaceae",
+  "category": "Climbers",
+  "origin": "India",
+  "image": "../images/plants/vidanga.jpg",
+  "gallery": [
+    "../images/plants/vidanga.jpg",
+    "../images/plants/vidanga-2.jpg",
+    "../images/plants/vidanga-3.jpg"
+  ],
+  "description": "Vidanga is a traditional Ayurvedic climbing shrub known for digestive and cleansing applications.",
+  "uses": [
+    "Supports digestion",
+    "Supports gut health",
+    "Promotes detoxification",
+    "Supports metabolism"
+  ],
+  "benefits": [
+    "Traditional cleansing herb",
+    "Natural antioxidant",
+    "Supports digestive wellness",
+    "Traditional Ayurvedic formulation ingredient"
+  ],
+  "partsUsed": [
+    "Fruit"
+  ],
+  "preparation": [
+    "Powder",
+    "Tea",
+    "Extract"
+  ],
+  "habitat": "Moist forests.",
+  "interestingFact": "Vidanga berries have been used in Ayurveda for centuries.",
+  "research": "Current research investigates bioactive compounds.",
+  "precautions": "Use only as advised by professionals.",
+  "page": "plants-profile.html?id=48"
+},
+{
+  "id": 49,
+  "name": "Kokum",
+  "botanical": "Garcinia indica",
+  "family": "Clusiaceae",
+  "category": "Trees",
+  "origin": "Western Ghats, India",
+  "image": "../images/plants/kokum.jpg",
+  "gallery": [
+    "../images/plants/kokum.jpg",
+    "../images/plants/kokum-2.jpg",
+    "../images/plants/kokum-3.jpg"
+  ],
+  "description": "Kokum is a tropical fruit traditionally used as a cooling food and digestive support.",
+  "uses": [
+    "Supports digestion",
+    "Cooling fruit",
+    "Supports hydration",
+    "Supports metabolism"
+  ],
+  "benefits": [
+    "Rich in antioxidants",
+    "Natural cooling fruit",
+    "Supports digestive comfort",
+    "Rich in Vitamin C"
+  ],
+  "partsUsed": [
+    "Fruit"
+  ],
+  "preparation": [
+    "Juice",
+    "Syrup",
+    "Dried Fruit"
+  ],
+  "habitat": "Western Ghats evergreen forests.",
+  "interestingFact": "Kokum butter is also used in skincare.",
+  "research": "Research explores antioxidant compounds such as garcinol.",
+  "precautions": "Generally safe as food.",
+  "page": "plants-profile.html?id=49"
+},
+{
+  "id": 50,
+  "name": "Karela",
+  "botanical": "Momordica charantia",
+  "family": "Cucurbitaceae",
+  "category": "Climbers",
+  "origin": "India",
+  "image": "../images/plants/karela.jpg",
+  "gallery": [
+    "../images/plants/karela.jpg",
+    "../images/plants/karela-2.jpg",
+    "../images/plants/karela-3.jpg"
+  ],
+  "description": "Karela, or Bitter Gourd, is widely used in Ayurveda and traditional nutrition for supporting metabolism and digestive wellness.",
+  "uses": [
+    "Supports metabolism",
+    "Supports digestion",
+    "Supports immunity",
+    "Promotes healthy nutrition"
+  ],
+  "benefits": [
+    "Rich in Vitamin C",
+    "Natural antioxidant",
+    "High fibre content",
+    "Traditional wellness vegetable"
+  ],
+  "partsUsed": [
+    "Fruit",
+    "Leaves"
+  ],
+  "preparation": [
+    "Fresh Vegetable",
+    "Juice",
+    "Powder",
+    "Extract"
+  ],
+  "habitat": "Warm tropical climates.",
+  "interestingFact": "Despite its bitterness, Karela is cultivated throughout Asia for both food and traditional wellness.",
+  "research": "Modern research investigates its nutritional and metabolic properties.",
+  "precautions": "Individuals managing blood sugar should consult a healthcare professional before medicinal use.",
+  "page": "plants-profile.html?id=50"
+}
 ]
