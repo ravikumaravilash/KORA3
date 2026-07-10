@@ -1,0 +1,617 @@
+[
+  {
+    "id": 1,
+    "name": "Golden Milk",
+    "category": "Milk",
+    "description": "A traditional Ayurvedic turmeric-based drink enjoyed as part of daily wellness routines.",
+    "ingredients": [
+      "Turmeric",
+      "Milk",
+      "Black Pepper",
+      "Ghee"
+    ],
+    "image": "images/remedies/golden-milk.jpg",
+    "difficulty": "Easy",
+    "time": "10 min"
+  },
+  {
+    "id": 2,
+    "name": "Tulsi Herbal Tea",
+    "category": "Tea",
+    "description": "A refreshing herbal infusion traditionally prepared using holy basil leaves.",
+    "ingredients": [
+      "Tulsi",
+      "Water",
+      "Honey",
+      "Ginger"
+    ],
+    "image": "images/remedies/tulsi-tea.jpg",
+    "difficulty": "Easy",
+    "time": "15 min"
+  },
+  {
+    "id": 3,
+    "name": "Triphala Churna",
+    "category": "Churna",
+    "description": "A classical Ayurvedic formulation prepared from three medicinal fruits.",
+    "ingredients": [
+      "Amla",
+      "Haritaki",
+      "Bibhitaki"
+    ],
+    "image": "images/remedies/triphala.jpg",
+    "difficulty": "Easy",
+    "time": "5 min"
+  },
+  {
+    "id": 4,
+    "name": "Neem Paste",
+    "category": "Paste",
+    "description": "Traditional herbal paste prepared from fresh neem leaves.",
+    "ingredients": [
+      "Neem Leaves",
+      "Water"
+    ],
+    "image": "images/remedies/neem-paste.jpg",
+    "difficulty": "Easy",
+    "time": "20 min"
+  },
+  {
+    "id": 5,
+    "name": "Ashwagandha Powder",
+    "category": "Powder",
+    "description": "A powdered preparation traditionally mixed with warm milk or water.",
+    "ingredients": [
+      "Ashwagandha Root"
+    ],
+    "image": "images/remedies/ashwagandha-powder.jpg",
+    "difficulty": "Easy",
+    "time": "5 min"
+  },
+  {
+    "id": 6,
+    "name": "Brahmi Juice",
+    "category": "Juice",
+    "description": "Fresh herbal juice prepared from Brahmi leaves.",
+    "ingredients": [
+      "Brahmi",
+      "Water"
+    ],
+    "image": "images/remedies/brahmi-juice.jpg",
+    "difficulty": "Easy",
+    "time": "10 min"
+  }
+
+  ,{
+  "id": 7,
+  "name": "Ginger Herbal Tea",
+  "category": "Tea",
+  "description": "A warming herbal infusion traditionally prepared using fresh ginger.",
+  "ingredients": [
+    "Fresh Ginger",
+    "Water",
+    "Honey",
+    "Lemon"
+  ],
+  "image": "images/remedies/ginger-tea.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 8,
+  "name": "Amla Juice",
+  "category": "Juice",
+  "description": "Fresh Indian gooseberry juice traditionally valued in Ayurveda.",
+  "ingredients": [
+    "Amla",
+    "Water"
+  ],
+  "image": "images/remedies/amla-juice.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 9,
+  "name": "Turmeric Paste",
+  "category": "Paste",
+  "description": "Traditional turmeric preparation used in various Ayurvedic practices.",
+  "ingredients": [
+    "Turmeric",
+    "Water"
+  ],
+  "image": "images/remedies/turmeric-paste.jpg",
+  "difficulty": "Easy",
+  "time": "15 min"
+},
+{
+  "id": 10,
+  "name": "Licorice Tea",
+  "category": "Tea",
+  "description": "Traditional herbal tea prepared from licorice root.",
+  "ingredients": [
+    "Licorice Root",
+    "Water"
+  ],
+  "image": "images/remedies/licorice-tea.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 11,
+  "name": "Guduchi Decoction",
+  "category": "Decoction",
+  "description": "Classical herbal decoction prepared from Guduchi stems.",
+  "ingredients": [
+    "Guduchi Stem",
+    "Water"
+  ],
+  "image": "images/remedies/guduchi.jpg",
+  "difficulty": "Medium",
+  "time": "30 min"
+},
+{
+  "id": 12,
+  "name": "Moringa Powder",
+  "category": "Powder",
+  "description": "Nutrient-rich powdered leaves traditionally consumed with food or beverages.",
+  "ingredients": [
+    "Moringa Leaves"
+  ],
+  "image": "images/remedies/moringa-powder.jpg",
+  "difficulty": "Easy",
+  "time": "5 min"
+},
+{
+  "id": 13,
+  "name": "Shatavari Milk",
+  "category": "Milk",
+  "description": "A traditional milk preparation made using Shatavari powder.",
+  "ingredients": [
+    "Shatavari",
+    "Milk"
+  ],
+  "image": "images/remedies/shatavari-milk.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 14,
+  "name": "Arjuna Bark Tea",
+  "category": "Tea",
+  "description": "Traditional herbal infusion prepared from Arjuna bark.",
+  "ingredients": [
+    "Arjuna Bark",
+    "Water"
+  ],
+  "image": "images/remedies/arjuna-tea.jpg",
+  "difficulty": "Easy",
+  "time": "15 min"
+},
+{
+  "id": 15,
+  "name": "Coriander Water",
+  "category": "Drink",
+  "description": "Traditional coriander seed infusion commonly prepared in Ayurveda.",
+  "ingredients": [
+    "Coriander Seeds",
+    "Water"
+  ],
+  "image": "images/remedies/coriander-water.jpg",
+  "difficulty": "Easy",
+  "time": "8 min"
+}
+,
+{
+  "id": 16,
+  "name": "Dashamoola Kwath",
+  "category": "Decoction",
+  "description": "A classical Ayurvedic herbal decoction prepared from ten medicinal roots.",
+  "ingredients": [
+    "Dashamoola",
+    "Water"
+  ],
+  "image": "images/remedies/dashamoola-kwath.jpg",
+  "difficulty": "Medium",
+  "time": "35 min"
+},
+{
+  "id": 17,
+  "name": "Cumin Water",
+  "category": "Drink",
+  "description": "A simple herbal drink prepared by soaking or boiling cumin seeds.",
+  "ingredients": [
+    "Cumin Seeds",
+    "Water"
+  ],
+  "image": "images/remedies/cumin-water.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 18,
+  "name": "Fennel Tea",
+  "category": "Tea",
+  "description": "A fragrant herbal tea traditionally prepared using fennel seeds.",
+  "ingredients": [
+    "Fennel Seeds",
+    "Water"
+  ],
+  "image": "images/remedies/fennel-tea.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 19,
+  "name": "Cinnamon Milk",
+  "category": "Milk",
+  "description": "Warm milk infused with cinnamon as part of traditional wellness practices.",
+  "ingredients": [
+    "Milk",
+    "Cinnamon"
+  ],
+  "image": "images/remedies/cinnamon-milk.jpg",
+  "difficulty": "Easy",
+  "time": "8 min"
+},
+{
+  "id": 20,
+  "name": "Aloe Vera Drink",
+  "category": "Juice",
+  "description": "Fresh Aloe Vera juice traditionally consumed in moderation.",
+  "ingredients": [
+    "Aloe Vera",
+    "Water"
+  ],
+  "image": "images/remedies/aloe-vera-drink.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 21,
+  "name": "Brahmi Tea",
+  "category": "Tea",
+  "description": "A mild herbal infusion prepared from fresh or dried Brahmi leaves.",
+  "ingredients": [
+    "Brahmi",
+    "Water"
+  ],
+  "image": "images/remedies/brahmi-tea.jpg",
+  "difficulty": "Easy",
+  "time": "12 min"
+},
+{
+  "id": 22,
+  "name": "Mint Herbal Infusion",
+  "category": "Tea",
+  "description": "Refreshing mint leaves steeped in hot water.",
+  "ingredients": [
+    "Mint Leaves",
+    "Water"
+  ],
+  "image": "images/remedies/mint-infusion.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 23,
+  "name": "Cardamom Tea",
+  "category": "Tea",
+  "description": "Traditional aromatic tea flavored with crushed cardamom pods.",
+  "ingredients": [
+    "Cardamom",
+    "Water",
+    "Milk"
+  ],
+  "image": "images/remedies/cardamom-tea.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 24,
+  "name": "Fenugreek Water",
+  "category": "Drink",
+  "description": "Fenugreek seeds soaked overnight to prepare a traditional herbal drink.",
+  "ingredients": [
+    "Fenugreek Seeds",
+    "Water"
+  ],
+  "image": "images/remedies/fenugreek-water.jpg",
+  "difficulty": "Easy",
+  "time": "8 hrs soaking"
+},
+{
+  "id": 25,
+  "name": "Hibiscus Tea",
+  "category": "Tea",
+  "description": "Bright herbal infusion prepared from dried hibiscus flowers.",
+  "ingredients": [
+    "Hibiscus Flowers",
+    "Water"
+  ],
+  "image": "images/remedies/hibiscus-tea.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+}
+,
+{
+  "id": 26,
+  "name": "Garlic Honey Blend",
+  "category": "Paste",
+  "description": "A traditional preparation combining garlic cloves with raw honey.",
+  "ingredients": [
+    "Garlic",
+    "Raw Honey"
+  ],
+  "image": "images/remedies/garlic-honey.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 27,
+  "name": "Lemon Ginger Drink",
+  "category": "Drink",
+  "description": "A refreshing herbal drink made with fresh lemon and ginger.",
+  "ingredients": [
+    "Lemon",
+    "Fresh Ginger",
+    "Water",
+    "Honey"
+  ],
+  "image": "images/remedies/lemon-ginger.jpg",
+  "difficulty": "Easy",
+  "time": "8 min"
+},
+{
+  "id": 28,
+  "name": "Clove Herbal Tea",
+  "category": "Tea",
+  "description": "An aromatic herbal infusion prepared using whole cloves.",
+  "ingredients": [
+    "Cloves",
+    "Water"
+  ],
+  "image": "images/remedies/clove-tea.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 29,
+  "name": "Black Pepper Milk",
+  "category": "Milk",
+  "description": "Warm milk infused with freshly ground black pepper.",
+  "ingredients": [
+    "Milk",
+    "Black Pepper"
+  ],
+  "image": "images/remedies/black-pepper-milk.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 30,
+  "name": "Curry Leaf Juice",
+  "category": "Juice",
+  "description": "Fresh herbal juice prepared from curry leaves.",
+  "ingredients": [
+    "Curry Leaves",
+    "Water"
+  ],
+  "image": "images/remedies/curry-leaf-juice.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 31,
+  "name": "Bael Fruit Drink",
+  "category": "Juice",
+  "description": "Traditional cooling beverage prepared from Bael fruit pulp.",
+  "ingredients": [
+    "Bael Fruit",
+    "Water"
+  ],
+  "image": "images/remedies/bael-drink.jpg",
+  "difficulty": "Easy",
+  "time": "15 min"
+},
+{
+  "id": 32,
+  "name": "Pomegranate Herbal Juice",
+  "category": "Juice",
+  "description": "Fresh pomegranate juice commonly enjoyed in traditional wellness practices.",
+  "ingredients": [
+    "Pomegranate"
+  ],
+  "image": "images/remedies/pomegranate-juice.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 33,
+  "name": "Rose Petal Tea",
+  "category": "Tea",
+  "description": "A fragrant herbal infusion made using dried rose petals.",
+  "ingredients": [
+    "Rose Petals",
+    "Water"
+  ],
+  "image": "images/remedies/rose-tea.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 34,
+  "name": "Turmeric Honey Mix",
+  "category": "Paste",
+  "description": "A simple traditional blend of turmeric powder and raw honey.",
+  "ingredients": [
+    "Turmeric",
+    "Honey"
+  ],
+  "image": "images/remedies/turmeric-honey.jpg",
+  "difficulty": "Easy",
+  "time": "5 min"
+},
+{
+  "id": 35,
+  "name": "Saffron Milk",
+  "category": "Milk",
+  "description": "Warm milk delicately infused with saffron strands.",
+  "ingredients": [
+    "Milk",
+    "Saffron"
+  ],
+  "image": "images/remedies/saffron-milk.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 36,
+  "name": "Holy Basil Kadha",
+  "category": "Decoction",
+  "description": "Traditional herbal decoction prepared with Tulsi leaves and warming spices.",
+  "ingredients": ["Tulsi Leaves", "Black Pepper", "Ginger", "Water"],
+  "image": "images/remedies/tulsi-kadha.jpg",
+  "difficulty": "Medium",
+  "time": "20 min"
+},
+{
+  "id": 37,
+  "name": "Mulethi Decoction",
+  "category": "Decoction",
+  "description": "Traditional herbal preparation made from licorice root.",
+  "ingredients": ["Licorice Root", "Water"],
+  "image": "images/remedies/mulethi-decoction.jpg",
+  "difficulty": "Medium",
+  "time": "20 min"
+},
+{
+  "id": 38,
+  "name": "Ajwain Water",
+  "category": "Drink",
+  "description": "Carom seeds infused in water as a traditional herbal beverage.",
+  "ingredients": ["Ajwain Seeds", "Water"],
+  "image": "images/remedies/ajwain-water.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 39,
+  "name": "Pepper Rasam",
+  "category": "Soup",
+  "description": "Traditional South Indian pepper-based herbal soup.",
+  "ingredients": ["Black Pepper", "Cumin", "Tamarind", "Water"],
+  "image": "images/remedies/pepper-rasam.jpg",
+  "difficulty": "Medium",
+  "time": "30 min"
+},
+{
+  "id": 40,
+  "name": "CCF Herbal Tea",
+  "category": "Tea",
+  "description": "A blend of cumin, coriander and fennel seeds prepared as herbal tea.",
+  "ingredients": ["Cumin", "Coriander", "Fennel"],
+  "image": "images/remedies/ccf-tea.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 41,
+  "name": "Dry Ginger Powder Mix",
+  "category": "Powder",
+  "description": "Traditional powdered ginger blend used in Ayurvedic preparations.",
+  "ingredients": ["Dry Ginger Powder"],
+  "image": "images/remedies/dry-ginger-powder.jpg",
+  "difficulty": "Easy",
+  "time": "5 min"
+},
+{
+  "id": 42,
+  "name": "Coconut Water Herbal Infusion",
+  "category": "Drink",
+  "description": "Fresh coconut water infused with selected herbs.",
+  "ingredients": ["Tender Coconut Water", "Mint"],
+  "image": "images/remedies/coconut-herbal.jpg",
+  "difficulty": "Easy",
+  "time": "5 min"
+},
+{
+  "id": 43,
+  "name": "Herbal Steam Blend",
+  "category": "Steam",
+  "description": "Steam inhalation prepared with aromatic Ayurvedic herbs.",
+  "ingredients": ["Tulsi", "Mint", "Eucalyptus", "Water"],
+  "image": "images/remedies/herbal-steam.jpg",
+  "difficulty": "Easy",
+  "time": "15 min"
+},
+{
+  "id": 44,
+  "name": "Nutmeg Milk",
+  "category": "Milk",
+  "description": "Warm milk infused with freshly grated nutmeg.",
+  "ingredients": ["Milk", "Nutmeg"],
+  "image": "images/remedies/nutmeg-milk.jpg",
+  "difficulty": "Easy",
+  "time": "8 min"
+},
+{
+  "id": 45,
+  "name": "Digestive Herbal Drink",
+  "category": "Drink",
+  "description": "Traditional digestive beverage prepared with cumin, coriander and ginger.",
+  "ingredients": ["Cumin", "Coriander", "Ginger"],
+  "image": "images/remedies/digestive-drink.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 46,
+  "name": "Giloy Herbal Tea",
+  "category": "Tea",
+  "description": "A mild herbal infusion prepared from Guduchi (Giloy) stems.",
+  "ingredients": ["Guduchi Stem", "Water"],
+  "image": "images/remedies/giloy-tea.jpg",
+  "difficulty": "Easy",
+  "time": "15 min"
+},
+{
+  "id": 47,
+  "name": "Lemongrass Tea",
+  "category": "Tea",
+  "description": "Refreshing herbal tea prepared from fresh lemongrass leaves.",
+  "ingredients": ["Lemongrass", "Water"],
+  "image": "images/remedies/lemongrass-tea.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 48,
+  "name": "Mint Coriander Juice",
+  "category": "Juice",
+  "description": "Fresh green herbal juice made with mint and coriander leaves.",
+  "ingredients": ["Mint", "Coriander", "Water"],
+  "image": "images/remedies/mint-coriander.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 49,
+  "name": "Herbal Spice Milk",
+  "category": "Milk",
+  "description": "Warm milk infused with cinnamon, cardamom and turmeric.",
+  "ingredients": ["Milk", "Cardamom", "Turmeric", "Cinnamon"],
+  "image": "images/remedies/spice-milk.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+},
+{
+  "id": 50,
+  "name": "Ayurvedic Wellness Drink",
+  "category": "Drink",
+  "description": "A balanced herbal beverage inspired by traditional Ayurvedic ingredients.",
+  "ingredients": ["Tulsi", "Amla", "Ginger", "Honey"],
+  "image": "images/remedies/wellness-drink.jpg",
+  "difficulty": "Easy",
+  "time": "10 min"
+}
+]
