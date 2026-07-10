@@ -1,10 +1,12 @@
-/* ======================================
-   KORA Remedies
-====================================== */
+/* ==========================================
+   KORA REMEDIES
+========================================== */
 
-const remediesGrid = document.getElementById("remediesGrid");
+const remediesGrid =
+document.getElementById("remediesGrid");
 
-const searchInput = document.getElementById("remedySearch");
+const searchInput =
+document.getElementById("remedySearch");
 
 const categoryButtons =
 document.querySelectorAll(".category-btn");
@@ -16,20 +18,20 @@ let remedies = [];
 
 let filteredRemedies = [];
 
-let visibleRemedies = 12;
+let visibleRemedies = 9;
 
 let selectedCategory = "All";
 
-/* ======================================
-LOAD JSON
-====================================== */
+/* ==========================================
+LOAD REMEDIES
+========================================== */
 
 async function loadRemedies(){
 
     try{
 
         const response =
-        await fetch("../data/remedies.json");
+        await fetch("data/remedies.json");
 
         remedies =
         await response.json();
@@ -42,7 +44,13 @@ async function loadRemedies(){
 
     catch(error){
 
-        console.error("Unable to load remedies:", error);
+        console.error(
+
+        "Unable to load remedies",
+
+        error
+
+        );
 
     }
 
@@ -50,9 +58,9 @@ async function loadRemedies(){
 
 loadRemedies();
 
-/* ======================================
+/* ==========================================
 DISPLAY REMEDIES
-====================================== */
+========================================== */
 
 function displayRemedies(){
 
@@ -60,21 +68,37 @@ function displayRemedies(){
 
     const currentRemedies =
 
-    filteredRemedies.slice(0, visibleRemedies);
+    filteredRemedies.slice(
 
-    currentRemedies.forEach(remedy => {
+    0,
 
-        const card = document.createElement("div");
+    visibleRemedies
 
-        card.className = "remedy-card";
+    );
 
-        card.innerHTML = `
+    currentRemedies.forEach(remedy=>{
+
+        const card =
+
+        document.createElement("div");
+
+        card.className="remedy-card reveal";
+
+        card.innerHTML=`
 
         <img
+
         src="${remedy.image}"
+
         alt="${remedy.name}">
 
         <div class="remedy-content">
+
+            <span class="remedy-category">
+
+                ${remedy.category}
+
+            </span>
 
             <h3>
 
@@ -88,11 +112,29 @@ function displayRemedies(){
 
             </p>
 
+            <div class="remedy-tags">
+
+                ${remedy.ingredients
+                .slice(0,3)
+                .map(item=>`
+
+                <span>
+
+                    ${item}
+
+                </span>
+
+                `).join("")}
+
+            </div>
+
             <a
-            href="remedies-profile.html?id=${remedy.id}"
+
+            href="pages/remedy-profile.html?id=${remedy.id}"
+
             class="btn btn-primary">
 
-                View Remedy
+                Learn More
 
             </a>
 
@@ -107,49 +149,59 @@ function displayRemedies(){
     updateLoadButton();
 
 }
-/* ======================================
+/* ==========================================
 LIVE SEARCH
-====================================== */
+========================================== */
 
-searchInput.addEventListener("input", () => {
+searchInput.addEventListener("input",()=>{
 
-    const keyword = searchInput.value
-        .toLowerCase()
-        .trim();
+    const keyword =
 
-    filteredRemedies = remedies.filter(remedy => {
+    searchInput.value
+    .toLowerCase()
+    .trim();
+
+    filteredRemedies =
+
+    remedies.filter(remedy=>{
 
         const matchesSearch =
 
-            remedy.name.toLowerCase().includes(keyword) ||
+        remedy.name.toLowerCase().includes(keyword)||
 
-            remedy.description.toLowerCase().includes(keyword);
+        remedy.description.toLowerCase().includes(keyword)||
+
+        remedy.ingredients.some(item=>
+
+            item.toLowerCase().includes(keyword)
+
+        );
 
         const matchesCategory =
 
-            selectedCategory === "All" ||
+        selectedCategory==="All"||
 
-            remedy.category === selectedCategory;
+        remedy.category===selectedCategory;
 
         return matchesSearch && matchesCategory;
 
     });
 
-    visibleRemedies = 12;
+    visibleRemedies = 9;
 
     displayRemedies();
 
 });
 
-/* ======================================
+/* ==========================================
 CATEGORY FILTER
-====================================== */
+========================================== */
 
-categoryButtons.forEach(button => {
+categoryButtons.forEach(button=>{
 
-    button.addEventListener("click", () => {
+    button.addEventListener("click",()=>{
 
-        categoryButtons.forEach(btn =>
+        categoryButtons.forEach(btn=>
 
             btn.classList.remove("active")
 
@@ -157,169 +209,271 @@ categoryButtons.forEach(button => {
 
         button.classList.add("active");
 
-        selectedCategory =
+        selectedCategory=
 
-            button.dataset.category;
+        button.dataset.category;
 
-        const keyword = searchInput.value
-            .toLowerCase()
-            .trim();
+        const keyword=
 
-        filteredRemedies = remedies.filter(remedy => {
+        searchInput.value
+        .toLowerCase()
+        .trim();
 
-            const matchesSearch =
+        filteredRemedies=
 
-                remedy.name.toLowerCase().includes(keyword) ||
+        remedies.filter(remedy=>{
 
-                remedy.description.toLowerCase().includes(keyword);
+            const matchesSearch=
 
-            const matchesCategory =
+            remedy.name.toLowerCase().includes(keyword)||
 
-                selectedCategory === "All" ||
+            remedy.description.toLowerCase().includes(keyword)||
 
-                remedy.category === selectedCategory;
+            remedy.ingredients.some(item=>
+
+                item.toLowerCase().includes(keyword)
+
+            );
+
+            const matchesCategory=
+
+            selectedCategory==="All"||
+
+            remedy.category===selectedCategory;
 
             return matchesSearch && matchesCategory;
 
         });
 
-        visibleRemedies = 12;
+        visibleRemedies=9;
 
         displayRemedies();
 
     });
 
 });
-/* ======================================
+
+/* ==========================================
 LOAD MORE
-====================================== */
+========================================== */
 
-loadMoreBtn.addEventListener("click", () => {
+loadMoreBtn.addEventListener("click",()=>{
 
-    visibleRemedies += 12;
+    visibleRemedies += 9;
 
     displayRemedies();
 
 });
 
-/* ======================================
-SHOW / HIDE LOAD BUTTON
-====================================== */
+/* ==========================================
+UPDATE BUTTON
+========================================== */
 
 function updateLoadButton(){
 
-    if(filteredRemedies.length <= visibleRemedies){
+    if(filteredRemedies.length<=visibleRemedies){
 
-        loadMoreBtn.style.display = "none";
+        loadMoreBtn.style.display="none";
 
     }
 
     else{
 
-        loadMoreBtn.style.display = "inline-flex";
+        loadMoreBtn.style.display="inline-flex";
 
     }
 
 }
-
-/* ======================================
+/* ==========================================
 EMPTY RESULTS
-====================================== */
+========================================== */
 
 function showEmptyMessage(){
 
     remediesGrid.innerHTML = `
 
-        <div class="no-results">
+    <div class="no-results reveal">
 
-            <h2>
+        <div class="no-results-icon">
 
-                No Remedies Found
-
-            </h2>
-
-            <p>
-
-                Try another keyword or category.
-
-            </p>
+            🌿
 
         </div>
 
+        <h2>
+
+            No Remedies Found
+
+        </h2>
+
+        <p>
+
+            Try another search keyword or choose a different category.
+
+        </p>
+
+        <button
+
+        class="btn btn-primary"
+
+        id="resetSearch">
+
+            Reset Search
+
+        </button>
+
+    </div>
+
     `;
+
+    document
+
+    .getElementById("resetSearch")
+
+    .addEventListener("click",()=>{
+
+        searchInput.value="";
+
+        selectedCategory="All";
+
+        categoryButtons.forEach(btn=>
+
+            btn.classList.remove("active")
+
+        );
+
+        categoryButtons[0].classList.add("active");
+
+        filteredRemedies=[...remedies];
+
+        visibleRemedies=9;
+
+        displayRemedies();
+
+    });
 
 }
 
-/* ======================================
-OVERRIDE DISPLAY FUNCTION
-====================================== */
+/* ==========================================
+DISPLAY OVERRIDE
+========================================== */
 
-const oldDisplayRemedies = displayRemedies;
+const originalDisplayRemedies = displayRemedies;
 
 displayRemedies = function(){
 
-    if(filteredRemedies.length === 0){
+    if(filteredRemedies.length===0){
 
         showEmptyMessage();
 
-        updateLoadButton();
+        loadMoreBtn.style.display="none";
 
         return;
 
     }
 
-    remediesGrid.innerHTML = "";
+    originalDisplayRemedies();
 
-    const currentRemedies =
+    animateCards();
 
-    filteredRemedies.slice(0, visibleRemedies);
+}
 
-    currentRemedies.forEach(remedy => {
+/* ==========================================
+CARD ANIMATION
+========================================== */
 
-        const card = document.createElement("div");
+function animateCards(){
 
-        card.className = "remedy-card";
+    const cards =
 
-        card.innerHTML = `
+    document.querySelectorAll(".remedy-card");
 
-        <img
-        src="${remedy.image}"
-        alt="${remedy.name}">
+    cards.forEach((card,index)=>{
 
-        <div class="remedy-content">
+        card.style.opacity="0";
 
-            <h3>
+        card.style.transform="translateY(30px)";
 
-                ${remedy.name}
+        setTimeout(()=>{
 
-            </h3>
+            card.style.transition=
 
-            <p>
+            ".45s ease";
 
-                ${remedy.description}
+            card.style.opacity="1";
 
-            </p>
+            card.style.transform=
 
-            <a
-            href="remedies-profile.html?id=${remedy.id}"
-            class="btn btn-primary">
+            "translateY(0px)";
 
-                View Remedy
-
-            </a>
-
-        </div>
-
-        `;
-
-        remediesGrid.appendChild(card);
+        },index*80);
 
     });
 
-    updateLoadButton();
+}
 
-};
+/* ==========================================
+LOAD MORE SCROLL
+========================================== */
 
-/* ======================================
+loadMoreBtn.addEventListener("click",()=>{
+
+    setTimeout(()=>{
+
+        loadMoreBtn.scrollIntoView({
+
+            behavior:"smooth",
+
+            block:"center"
+
+        });
+
+    },200);
+
+});
+
+/* ==========================================
+COUNTER ANIMATION
+========================================== */
+
+document.querySelectorAll(".counter")
+
+.forEach(counter=>{
+
+    const target=
+
+    Number(counter.dataset.target);
+
+    let count=0;
+
+    const speed=target/80;
+
+    function update(){
+
+        count+=speed;
+
+        if(count<target){
+
+            counter.innerText=
+
+            Math.floor(count);
+
+            requestAnimationFrame(update);
+
+        }
+
+        else{
+
+            counter.innerText=target;
+
+        }
+
+    }
+
+    update();
+
+});
+
+/* ==========================================
 END OF FILE
-====================================== */
+========================================== */
