@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>KORA Doctor Consultation</title>
+
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/consultation.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+<header id="navbar"></header>
+
+<!-- ==========================================
+HERO
+========================================== -->
+
+<section class="consultation-hero">
+
+    <div class="container hero-grid">
+
+        <div class="hero-content reveal-left">
+
+            <span class="hero-badge">
+
+                👨‍⚕️ VERIFIED AYURVEDIC DOCTORS
+
+            </span>
+
+            <h1>
+
+                Consult Trusted
+                <span>Ayurvedic Experts</span>
+
+            </h1>
+
+            <p>
+
+                Connect with experienced Ayurvedic
+                practitioners for personalized wellness
+                guidance through KORA.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#doctors"
+                   class="btn btn-primary">
+
+                    Find Doctors
+
+                </a>
+
+                <a href="#appointment"
+                   class="btn btn-secondary">
+
+                    Book Appointment
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image reveal-right">
+
+            <img src="../images/doctors/doctor-hero.png"
+                 alt="Ayurvedic Doctor">
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+STATISTICS
+========================================== -->
+
+<section class="consultation-stats">
+
+    <div class="container">
+
+        <div class="stats-grid">
+
+            <div class="stat-card reveal">
+
+                <h2>250+</h2>
+
+                <p>Verified Doctors</p>
+
+            </div>
+
+            <div class="stat-card reveal">
+
+                <h2>20+</h2>
+
+                <p>Specializations</p>
+
+            </div>
+
+            <div class="stat-card reveal">
+
+                <h2>15K+</h2>
+
+                <p>Appointments</p>
+
+            </div>
+
+            <div class="stat-card reveal">
+
+                <h2>4.9★</h2>
+
+                <p>Average Rating</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================================
+SEARCH & FILTERS
+========================================== -->
+
+<section id="doctors" class="doctor-search">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span>FIND YOUR DOCTOR</span>
+
+            <h2>Browse Verified Ayurvedic Experts</h2>
+
+            <p>
+
+                Search doctors by name or browse
+                different Ayurvedic specializations.
+
+            </p>
+
+        </div>
+
+        <div class="search-box reveal">
+
+            <input
+                type="text"
+                id="doctorSearch"
+                placeholder="Search doctors...">
+
+        </div>
+
+        <div class="speciality-filter reveal">
+
+            <button class="speciality-btn active">
+                All
+            </button>
+
+            <button class="speciality-btn">
+                General Ayurveda
+            </button>
+
+            <button class="speciality-btn">
+                Panchakarma
+            </button>
+
+            <button class="speciality-btn">
+                Nutrition
+            </button>
+
+            <button class="speciality-btn">
+                Skin Care
+            </button>
+
+            <button class="speciality-btn">
+                Women's Health
+            </button>
+
+            <button class="speciality-btn">
+                Child Care
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+DOCTORS GRID
+========================================== -->
+
+<section class="doctors-section">
+
+    <div class="container">
+
+        <div id="doctorGrid" class="doctor-grid">
+
+            <!-- Loaded from consultation.js -->
+
+        </div>
+
+        <div class="load-more">
+
+            <button
+                id="loadMoreDoctors"
+                class="btn btn-outline">
+
+                Load More Doctors
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+WHY KORA DOCTORS
+========================================== -->
+
+<section class="why-kora">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span>WHY CHOOSE KORA?</span>
+
+            <h2>Your Health Is In Safe Hands</h2>
+
+        </div>
+
+        <div class="benefits-grid">
+
+            <div class="benefit-card reveal">
+
+                <div class="benefit-icon">
+
+                    ✔
+
+                </div>
+
+                <h3>
+
+                    Verified Professionals
+
+                </h3>
+
+                <p>
+
+                    Every practitioner is carefully
+                    verified before joining KORA.
+
+                </p>
+
+            </div>
+
+            <div class="benefit-card reveal">
+
+                <div class="benefit-icon">
+
+                    🌿
+
+                </div>
+
+                <h3>
+
+                    Authentic Ayurveda
+
+                </h3>
+
+                <p>
+
+                    Guidance rooted in traditional
+                    Ayurvedic principles.
+
+                </p>
+
+            </div>
+
+            <div class="benefit-card reveal">
+
+                <div class="benefit-icon">
+
+                    📅
+
+                </div>
+
+                <h3>
+
+                    Easy Booking
+
+                </h3>
+
+                <p>
+
+                    Book appointments in just a few clicks.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================================
+BOOK APPOINTMENT
+========================================== -->
+
+<section id="appointment" class="appointment-section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span>BOOK NOW</span>
+
+            <h2>Schedule Your Consultation</h2>
+
+            <p>
+
+                Choose your preferred date and time.
+                Our doctors will confirm your appointment.
+
+            </p>
+
+        </div>
+
+        <div class="appointment-card reveal">
+
+            <form id="appointmentForm">
+
+                <div class="form-grid">
+
+                    <input
+                        type="text"
+                        placeholder="Full Name"
+                        required>
+
+                    <input
+                        type="email"
+                        placeholder="Email Address"
+                        required>
+
+                    <input
+                        type="tel"
+                        placeholder="Phone Number"
+                        required>
+
+                    <input
+                        type="date"
+                        required>
+
+                    <input
+                        type="time"
+                        required>
+
+                    <select required>
+
+                        <option>
+
+                            Select Doctor
+
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <textarea
+                    rows="6"
+                    placeholder="Describe your concern..."></textarea>
+
+                <button
+                    class="btn btn-primary"
+                    type="submit">
+
+                    Book Appointment
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+FAQ
+========================================== -->
+
+<section class="consultation-faq">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span>FAQ</span>
+
+            <h2>Frequently Asked Questions</h2>
+
+        </div>
+
+        <div class="faq-grid">
+
+            <div class="faq-card reveal">
+
+                <h3>
+
+                    Are all doctors verified?
+
+                </h3>
+
+                <p>
+
+                    Yes. Every doctor listed on KORA
+                    goes through our verification process.
+
+                </p>
+
+            </div>
+
+            <div class="faq-card reveal">
+
+                <h3>
+
+                    Can I cancel appointments?
+
+                </h3>
+
+                <p>
+
+                    Yes. Appointments may be cancelled
+                    or rescheduled before confirmation.
+
+                </p>
+
+            </div>
+
+            <div class="faq-card reveal">
+
+                <h3>
+
+                    Is consultation online?
+
+                </h3>
+
+                <p>
+
+                    Depending on the doctor,
+                    consultations may be online
+                    or in person.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+NEWSLETTER
+========================================== -->
+
+<section class="newsletter">
+
+    <div class="container">
+
+        <div class="newsletter-card reveal">
+
+            <h2>
+
+                Stay Connected
+
+            </h2>
+
+            <p>
+
+                Receive health tips, Ayurveda updates,
+                and wellness articles.
+
+            </p>
+
+            <form class="newsletter-form">
+
+                <input
+                    type="email"
+                    placeholder="Enter your email">
+
+                <button
+                    class="btn btn-primary"
+                    type="submit">
+
+                    Subscribe
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+FOOTER
+========================================== -->
+
+<footer id="footer"></footer>
+
+<!-- ==========================================
+SCRIPTS
+========================================== -->
+
+<script src="../js/navbar.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../js/animations.js"></script>
+<script src="../js/consultation.js"></script>
+
+</body>
+
+</html>

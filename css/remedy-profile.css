@@ -1,0 +1,663 @@
+/* ==========================================
+REMEDY HERO
+========================================== */
+
+.remedy-hero{
+
+    padding:170px 0 110px;
+
+    background:linear-gradient(135deg,#F6FFF8,#EDF8F1);
+
+}
+
+.hero-grid{
+
+    display:grid;
+
+    grid-template-columns:420px 1fr;
+
+    gap:80px;
+
+    align-items:center;
+
+}
+
+.hero-image img{
+
+    width:100%;
+
+    border-radius:35px;
+
+    box-shadow:0 30px 80px rgba(0,0,0,.12);
+
+}
+
+.hero-badge{
+
+    display:inline-block;
+
+    padding:10px 22px;
+
+    background:#E8F5E9;
+
+    color:var(--primary);
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+.hero-content h1{
+
+    font-size:3.5rem;
+
+    margin-bottom:20px;
+
+}
+
+.hero-content p{
+
+    color:#666;
+
+    line-height:1.9;
+
+    font-size:1.08rem;
+
+    margin-bottom:35px;
+
+}
+
+.hero-meta{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.meta-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.meta-card h4{
+
+    color:#888;
+
+    margin-bottom:8px;
+
+}
+
+.meta-card p{
+
+    margin:0;
+
+    color:var(--primary);
+
+    font-weight:700;
+
+}
+
+/* ==========================================
+QUICK INFO
+========================================== */
+
+.quick-info{
+
+    padding:120px 0;
+
+}
+
+.info-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:35px;
+
+}
+
+.info-card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:28px;
+
+    box-shadow:0 18px 45px rgba(0,0,0,.08);
+
+}
+
+.info-card h3{
+
+    margin-bottom:20px;
+
+}
+
+.info-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+.tag-container{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+}
+
+.tag-container span{
+
+    padding:10px 18px;
+
+    border-radius:30px;
+
+    background:#E8F5E9;
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+/* ==========================================
+BENEFITS
+========================================== */
+
+.benefits-section{
+
+    padding:120px 0;
+
+    background:#FAFCFB;
+
+}
+
+.section-heading{
+
+    text-align:center;
+
+    max-width:760px;
+
+    margin:0 auto 60px;
+
+}
+
+.section-heading span{
+
+    display:inline-block;
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    margin-bottom:15px;
+
+}
+
+.section-heading h2{
+
+    font-size:3rem;
+
+    margin-bottom:20px;
+
+}
+
+.section-heading p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+.benefits-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+}
+
+.benefit-card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:28px;
+
+    box-shadow:0 18px 45px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.benefit-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.benefit-card h3{
+
+    margin-bottom:18px;
+
+    color:var(--primary);
+
+}
+
+.benefit-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+/* ==========================================
+PRECAUTIONS
+========================================== */
+
+.precautions-section{
+
+    padding:120px 0;
+
+}
+
+.precautions-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+}
+
+.precaution-card{
+
+    background:#FFF8E8;
+
+    border-left:6px solid #F39C12;
+
+    border-radius:25px;
+
+    padding:35px;
+
+    transition:.3s;
+
+}
+
+.precaution-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.precaution-card h3{
+
+    color:#E67E22;
+
+    margin-bottom:15px;
+
+}
+
+.precaution-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+/* ==========================================
+RESEARCH
+========================================== */
+
+.research-section{
+
+    padding:120px 0;
+
+    background:#F8FBF8;
+
+}
+
+.research-card{
+
+    max-width:950px;
+
+    margin:auto;
+
+    background:#fff;
+
+    padding:55px;
+
+    border-radius:35px;
+
+    text-align:center;
+
+    box-shadow:0 25px 70px rgba(0,0,0,.08);
+
+}
+
+.research-card span{
+
+    display:block;
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    margin-bottom:18px;
+
+}
+
+.research-card h2{
+
+    font-size:2.7rem;
+
+    margin-bottom:25px;
+
+}
+
+.research-card p{
+
+    color:#666;
+
+    line-height:2;
+
+}
+/* ==========================================
+RELATED REMEDIES
+========================================== */
+
+.related-remedies{
+
+    padding:120px 0;
+
+}
+
+.related-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+.related-card{
+
+    background:#fff;
+
+    border-radius:28px;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 55px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.related-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 30px 70px rgba(0,0,0,.12);
+
+}
+
+.related-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.related-content{
+
+    padding:28px;
+
+}
+
+.related-content h3{
+
+    margin-bottom:12px;
+
+}
+
+.related-content p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+/* ==========================================
+RELATED PLANTS
+========================================== */
+
+.related-plants{
+
+    padding:120px 0;
+
+    background:#FAFCFB;
+
+}
+
+.plants-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+}
+
+.plant-card{
+
+    background:#fff;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    padding:30px;
+
+    box-shadow:0 18px 45px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.plant-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.plant-card img{
+
+    width:140px;
+
+    height:140px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    margin-bottom:20px;
+
+}
+
+.plant-card h3{
+
+    margin-bottom:12px;
+
+}
+
+.plant-card p{
+
+    color:#666;
+
+    line-height:1.7;
+
+}
+
+/* ==========================================
+CTA
+========================================== */
+
+.remedy-cta{
+
+    padding:120px 0;
+
+}
+
+.cta-card{
+
+    background:linear-gradient(135deg,#1B5E20,#2E7D32);
+
+    color:#fff;
+
+    text-align:center;
+
+    border-radius:35px;
+
+    padding:80px;
+
+}
+
+.cta-card h2{
+
+    font-size:3rem;
+
+    margin-bottom:20px;
+
+}
+
+.cta-card p{
+
+    max-width:700px;
+
+    margin:0 auto 40px;
+
+    line-height:1.9;
+
+    opacity:.92;
+
+}
+
+.cta-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+}
+
+/* ==========================================
+RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+.hero-grid,
+.info-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.hero-content{
+
+text-align:center;
+
+}
+
+.hero-meta{
+
+grid-template-columns:1fr;
+
+}
+
+.cta-buttons{
+
+justify-content:center;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+
+font-size:2.5rem;
+
+}
+
+.section-heading h2{
+
+font-size:2.2rem;
+
+}
+
+.research-card,
+.cta-card{
+
+padding:40px 25px;
+
+}
+
+.cta-card h2{
+
+font-size:2rem;
+
+}
+
+.cta-buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+}
